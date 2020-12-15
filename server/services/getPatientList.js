@@ -1,3 +1,5 @@
+const R = require("ramda");
+
 const cerner = [
     { id: "12724070", name: "Frederick Smart", source: "Cerner" },
     { id: "12742399", name: "Sandy Smart", source: "Cerner" },
@@ -10,6 +12,6 @@ const smartHealth = [
     { id: "d55999ce-dea1-46da-a390-c8aca549508d", name: "Hallie Reinger", source: "SmartHealth" },
 ];
 
-const getPatientList = () => [...cerner, ...smartHealth];
+const getPatientList = () => R.sortBy(R.prop("name"), [...cerner, ...smartHealth]);
 
 module.exports = { getPatientList };
