@@ -1,11 +1,11 @@
 import "./App.css";
 import "./styles/App.css";
-import SelectPatient from "./views/SelectPatient";
+import ChoosePatient from "./views/ChoosePatient";
 
 const App = () => {
     return (
         <div className='App'>
-            <SelectPatient />
+            <ChoosePatient />
         </div>
     );
 };
