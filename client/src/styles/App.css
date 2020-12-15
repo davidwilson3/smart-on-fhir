@@ -8,11 +8,22 @@
 }
 
 .card-top-line {
-    font-size: 5em;
+    font-size: 1.2em;
 }
 
 .card-bottom-line {
-    font-size: 3em;
+    font-size: 1em;
     font-style: italic;
     color: gray;
+}
+
+.container {
+    text-align: center;
+    padding: 1vh;
+    padding-top: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.error {
+    font-size: 1.75em;
 }
