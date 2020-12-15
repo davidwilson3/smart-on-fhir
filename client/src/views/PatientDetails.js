@@ -2,6 +2,7 @@ import { Button, Card } from "react-bootstrap";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ConditionsTable from "../components/ConditionsTable";
+import LoadingBubble from "../components/LoadingBubble";
 
 const PatientDetails = ({ patient, onBack }) => {
     const [loading, setLoading] = useState(true);
@@ -21,8 +22,7 @@ const PatientDetails = ({ patient, onBack }) => {
         </div>
     );
 
-    // if API gets slower we could return a loading mask
-    if (loading) return null;
+    if (loading) return <LoadingBubble text={" [ getting patient details ] "} />;
 
     return (
         <>
