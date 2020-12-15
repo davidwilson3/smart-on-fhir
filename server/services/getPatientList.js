@@ -1,7 +1,7 @@
 const cerner = [
     { id: "12724070", name: "Frederick Smart", source: "Cerner" },
     { id: "12742399", name: "Sandy Smart", source: "Cerner" },
-    { id: "12724071", name: "Valerie Smar", source: "Cerner" },
+    { id: "12724071", name: "Valerie Smart", source: "Cerner" },
 ];
 
 const smartHealth = [
@@ -10,6 +10,6 @@ const smartHealth = [
     { id: "d55999ce-dea1-46da-a390-c8aca549508d", name: "Hallie Reinger", source: "SmartHealth" },
 ];
 
-const getPatientList = () => [...cerner, ...smartHealthIt];
+const getPatientList = () => [...cerner, ...smartHealth];
 
 module.exports = { getPatientList };

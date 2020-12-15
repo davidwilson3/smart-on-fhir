@@ -1,8 +1,9 @@
 const router = require("express").Router();
 const { parameters, sendStandardError, sendDataResults } = require("./util");
-const { getPatientData, ERROR_MSG } = require("../services/getPatientData");
-const { standardizePatientData } = require("../services/standardizePatientData");
+const { getPatientData } = require("../services/getPatientData");
+const { formatPatientData } = require("../services/formatPatientData");
 const { getPatientList } = require("../services/getPatientList");
+const { ERROR_MSG } = require("../services/constants");
 
 router.get("/patientList", (req, res) => {
     const data = getPatientList();
@@ -17,7 +18,9 @@ router.get("/patient", async (req, res) => {
 
     const raw = await getPatientData(source, patientId);
     if (raw === ERROR_MSG) sendStandardError(res, "Error retrieving external patient information");
-    const data = standardizePatientData(source, raw);
+
+    const data = formatPatientData(source, raw);
+    if (raw === ERROR_MSG) sendStandardError(res, "Error formatting patient data");
 
     sendDataResults(res, data);
 });
