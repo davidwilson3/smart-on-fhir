@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import PatientDetails from "./PatientDetails";
-import PatientCard from "../components/PatientCard";
+import PatientSelector from "../components/PatientSelector";
 
 const ChoosePatient = () => {
     const [mode, setMode] = useState("loading"); // loading | patients | error
@@ -30,11 +30,11 @@ const ChoosePatient = () => {
     const display = {
         loading: <div>Loading...</div>,
         error: <div className='error'>An error occurred getting patient information, please refresh and try again</div>,
-        grid: patients.map((p) => <PatientCard patient={p} onClick={handleSelectPatient} />),
+        grid: <PatientSelector patients={patients} onSelectPatient={handleSelectPatient} />,
         details: <PatientDetails patient={selectedPatient} onBack={handleResetHome} />,
     };
 
-    return <div className={"container"}>{display[mode]}</div>;
+    return <div className={"container-main"}>{display[mode]}</div>;
 };
 
 export default ChoosePatient;

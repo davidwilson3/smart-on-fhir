@@ -21,11 +21,15 @@ const formatCernerData = (raw) => {
                 entry.resource.clinicalStatus === "active" &&
                 entry.resource.code.text
         )
-        .map((item) => ({ name: item.resource.code.text, onsetDateTime: item.resource.onsetDateTime }));
+        .map((item, idx) => ({
+            key: idx,
+            name: item.resource.code.text,
+            onsetDateTime: item.resource.onsetDateTime,
+        }));
 
     const sortedConditions = R.sortBy(R.prop("name"), conditions);
 
-    return { name, gender, birthDate, sortedConditions };
+    return { name, gender, birthDate, conditions: sortedConditions };
 };
 
 const formatSmartHealthData = (raw) => {
@@ -44,15 +48,19 @@ const formatSmartHealthData = (raw) => {
                 entry.resource.clinicalStatus === "active" &&
                 entry.resource.code.text
         )
-        .map((item) => ({ name: item.resource.code.text, onsetDateTime: item.resource.onsetDateTime }));
+        .map((item, idx) => ({
+            key: idx,
+            name: item.resource.code.text,
+            onsetDateTime: item.resource.onsetDateTime,
+        }));
 
     const sortedConditions = R.sortBy(R.prop("name"), conditions);
 
-    return { name, gender, birthDate, sortedConditions };
+    return { name, gender, birthDate, conditions: sortedConditions };
 };
 
 // though the responses are very similar
-// there are minor JSON structure differences 
+// there are minor JSON structure differences
 // that require slightly different parsing
 const formatPatientData = (source, raw) => {
     switch (source.toLowerCase()) {

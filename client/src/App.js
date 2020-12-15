@@ -1,4 +1,5 @@
 import "./styles/App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ChoosePatient from "./views/ChoosePatient";
 
 const App = () => {

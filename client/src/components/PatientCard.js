@@ -5,18 +5,18 @@ const PatientCard = ({ patient, onClick }) => {
     const { name, id, source } = patient;
 
     return (
-        <Card style={{ width: "18rem" }}>
-            <Card.Img variant='top' src='/default-picture.png' />
-            <Card.Body>
-                <Card.Title>{name}</Card.Title>
-                <Card.Text>
-                    <div className={"card-line card-top-line"}>{`Patient ${id}`}</div>
-                    <div className={"card-line card-bottom-line"}>{`Date source: ${source}`}</div>
-                </Card.Text>
-                <Button variant='primary' onClick={onClick}>
+        <Card className={"card"} border='primary'>
+            <Card.Header className={"card-title"}>{name}</Card.Header>
+
+            <Card.Body className='card-body'>
+                <div>{`ID: ${id}`}</div>
+                <div className={"card-source"}>{`Source: ${source}`}</div>
+            </Card.Body>
+            <Card.Footer>
+                <Button variant='primary' onClick={onClick} style={{ width: "80%" }}>
                     View
                 </Button>
-            </Card.Body>
+            </Card.Footer>
         </Card>
     );
 };
