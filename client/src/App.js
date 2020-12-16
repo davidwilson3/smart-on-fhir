@@ -5,7 +5,7 @@ import ChoosePatient from "./views/ChoosePatient";
 const App = () => {
     return (
         <>
-            <div className={"header-bar"}>Created by David Wilson (2020)</div>
+            <div className={"header-bar"}>Created by David Wilson</div>
             <div className='App'>
                 <ChoosePatient />
             </div>

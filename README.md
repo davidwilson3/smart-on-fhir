@@ -10,6 +10,8 @@ Created by David Wilson
 
 4. While in the `./server` folder, from the command line run the command `npm run dev`. This will automatically run **both** servers and get the application running.
 
+Note: if the command to run the servers concurrently fails, then can also be run separately and the application will function as intended. The command to start the backend server from the `./server` folder is `npm run server` and the command to run the client server from the `./client` folder is `npm run start`.
+
 # Using the program
 
 1. The program will load a total of six patients. Three of the patients come from Cerner's sandbox (http://fhir.cerner.com/millennium/dstu2/#open-sandbox) and 3 of the patients come from the Smart Health IT sandbox (https://launch.smarthealthit.org/). My assumption with this model is that a healthcare system will have its patients ID information stored in their system and use that to query external healthcare records. Using two sources shows how different, but similar, sources and data models flow in from the server and work the same on the frontend.
