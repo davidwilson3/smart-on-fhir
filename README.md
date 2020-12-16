@@ -4,7 +4,7 @@ Created by David Wilson
 
 1. Clone `git clone https://github.com/davidwilson3/smart-on-fhir.git` or download this repository.
 
-2. From the command line, go the to `./client` folder and run `npm i` to install all client NPM modules
+2. From the command line, go to the `./client` folder and run `npm i` to install all client NPM modules.
 
 3. Next, navigate up one folder level and then to the `./server` folder. Again, run `npm i` to install all server NPM modules.
 
@@ -18,7 +18,7 @@ Note: if the command to run the servers concurrently fails, they can also be run
 
 2. Click any of the 6 patients on the page. This will load patient details, per the requirements for this project.
 
-3. The patient details page will list all conditions they actively are experiencing. Please note, some patients -- mostly from Cerner -- will have duplicate condition names. I deliberately left the duplicate names because they were separate, active entries in the API. My assumption is that is not for the data portal to determine if that data is valid. Rather, it is up to the doctors and the data source.
+3. The patient details page will list all conditions they actively are experiencing. Please note, some patients -- mostly from Cerner -- will have duplicate condition names. I deliberately left the duplicate names because they were separate, active entries in the API. My assumption is that is not for this data portal to determine if that data is valid. Rather, it is up to the healthcare providers and the data source.
 
 4. The rendered table of conditions can be sorted by clicking the column headers.
 
