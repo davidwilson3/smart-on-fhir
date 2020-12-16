@@ -2,7 +2,7 @@ Created by David Wilson
 
 # How to run this program
 
-1. Clone or download this repository.
+1. Clone `git clone https://github.com/davidwilson3/smart-on-fhir.git` or download this repository.
 
 2. From the command line, go the to `./client` folder and run `npm i` to install all client NPM modules
 
