@@ -1,5 +1,7 @@
 const R = require("ramda");
 
+// in a real, production application this would be coming from 
+// a database or another, secure data source
 const cerner = [
     { id: "12724070", name: "Frederick Smart", source: "Cerner" },
     { id: "12742399", name: "Sandy Smart", source: "Cerner" },

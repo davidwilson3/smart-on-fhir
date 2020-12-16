@@ -3,9 +3,8 @@ import moment from "moment";
 import BootstrapTable from "react-bootstrap-table-next";
 import "../../node_modules/react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
 
-//https://www.ncbi.nlm.nih.gov/pubmed/?term=[condition name]
-
 const ConditionsTable = ({ data }) => {
+    // map data to fit desired table format and add pubmeb link
     const finalData = data.map(({ key, name, onsetDateTime }) => ({
         key,
         name,

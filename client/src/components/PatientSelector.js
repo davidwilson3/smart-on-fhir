@@ -1,6 +1,7 @@
 import React from "react";
 import PatientCard from "./PatientCard";
 
+// a grid of patient cards that allow selection of a given patient
 const PatientSelector = ({ patients, onSelectPatient }) => {
     return (
         <>

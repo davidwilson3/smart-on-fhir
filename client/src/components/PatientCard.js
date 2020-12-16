@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 
+// Cards that show very basic patient summary information
 const PatientCard = ({ patient, onClick }) => {
     const { name, id, source } = patient;
 

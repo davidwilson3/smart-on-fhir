@@ -1,6 +1,7 @@
 const R = require("ramda");
 const { ERROR_MSG } = require("./constants");
 
+// format data from the Cerner API in a standardized way
 const formatCernerData = (raw) => {
     const summaryResource = raw.summary.entry[0].resource;
 
@@ -32,6 +33,7 @@ const formatCernerData = (raw) => {
     return { name, gender, birthDate, conditions: sortedConditions };
 };
 
+// format data from the Smart Health IT API in a standardized way
 const formatSmartHealthData = (raw) => {
     const summary = raw.summary;
 

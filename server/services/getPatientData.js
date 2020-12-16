@@ -1,6 +1,7 @@
 const axios = require("axios");
 const { ERROR_MSG } = require("./constants");
 
+// get Cerner Patient demographic and conditions information
 const getCernerPatient = async (patientId) => {
     const baseUrl = `https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d`;
     const headers = { Accept: "application/json+fhir" };
@@ -19,6 +20,7 @@ const getCernerPatient = async (patientId) => {
     return { summary, conditions };
 };
 
+// get Smart Health IT demographic and conditions information
 const getSmartHealthPatient = async (patientId) => {
     const baseUrl = "https://r2.smarthealthit.org";
     const headers = { Accept: "application/json" };
@@ -38,6 +40,7 @@ const getSmartHealthPatient = async (patientId) => {
     return { summary, conditions };
 };
 
+// get patient information from all sources and place in standard object structure
 const getPatientData = async (source, patientId) => {
     switch (source.toLowerCase()) {
         case "cerner":

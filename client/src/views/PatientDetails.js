@@ -4,6 +4,7 @@ import axios from "axios";
 import ConditionsTable from "../components/ConditionsTable";
 import LoadingBubble from "../components/LoadingBubble";
 
+// show all information for a given patient
 const PatientDetails = ({ patient, onBack }) => {
     const [loading, setLoading] = useState(true);
     const [data, setData] = useState(null);

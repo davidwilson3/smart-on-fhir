@@ -3,6 +3,8 @@ import axios from "axios";
 import PatientDetails from "./PatientDetails";
 import PatientSelector from "../components/PatientSelector";
 
+// the home page for this particular project
+// where a user selects a patient to get more information
 const ChoosePatient = () => {
     const [mode, setMode] = useState("loading"); // loading | patients | error
     const [patients, setPatients] = useState([]);
@@ -27,6 +29,8 @@ const ChoosePatient = () => {
         setMode("grid");
     };
 
+    // this is a very rudimentary finite state machine method of rendering
+    // useful in very linear navigated applications as you avoid conflicting states
     const display = {
         loading: <div aria-label={"message, loading"}>Loading...</div>,
         error: (
