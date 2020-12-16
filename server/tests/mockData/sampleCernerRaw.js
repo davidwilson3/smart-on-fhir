@@ -1,7 +1,7 @@
 const response = {
     summary: {
         resourceType: "Bundle",
-        id: "f147de6e-c4e5-4cff-bacc-317d494c8490",
+        id: "7d363652-6245-4c93-89cc-fc45a4dda9eb",
         type: "searchset",
         total: 1,
         link: [
@@ -308,9 +308,9 @@ const response = {
     },
     conditions: {
         resourceType: "Bundle",
-        id: "6fe442f0-b0b6-4988-a10f-89724faa7670",
+        id: "8da65293-d2dc-42d3-9275-8813b63403ec",
         type: "searchset",
-        total: 634,
+        total: 659,
         link: [
             {
                 relation: "self",
@@ -319,6 +319,877 @@ const response = {
             },
         ],
         entry: [
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758777",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758777",
+                    meta: {
+                        versionId: "2572758783",
+                        lastUpdated: "2020-12-10T00:51:14.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1628492",
+                                display: "Type 2 diabetes mellitus with other specified complication",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "44054006",
+                                display: "Diabetes mellitus type 2 (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 2 diabetes mellitus with other specified complication",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T00:51:03.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758703",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758703",
+                    meta: {
+                        versionId: "2572762657",
+                        lastUpdated: "2020-12-15T20:11:44.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:34 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1628492",
+                                display: "Type 2 diabetes mellitus with other specified complication",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "44054006",
+                                display: "Diabetes mellitus type 2 (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 2 diabetes mellitus with other specified complication",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T21:34:30.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751401",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572751401",
+                    meta: {
+                        versionId: "2572758771",
+                        lastUpdated: "2020-12-10T00:50:44.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  3:17 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1628492",
+                                display: "Type 2 diabetes mellitus with other specified complication",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "44054006",
+                                display: "Diabetes mellitus type 2 (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 2 diabetes mellitus with other specified complication",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T15:17:58.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758795",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758795",
+                    meta: {
+                        versionId: "2572758803",
+                        lastUpdated: "2020-12-10T00:52:14.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1628492",
+                                display: "Type 2 diabetes mellitus with other specified complication",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "44054006",
+                                display: "Diabetes mellitus type 2 (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 2 diabetes mellitus with other specified complication",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T00:51:45.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759045",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572759045",
+                    meta: {
+                        versionId: "2572759051",
+                        lastUpdated: "2020-12-10T13:59:03.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  1:58 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1628492",
+                                display: "Type 2 diabetes mellitus with other specified complication",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "44054006",
+                                display: "Diabetes mellitus type 2 (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 2 diabetes mellitus with other specified complication",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T13:58:45.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762785",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572762785",
+                    meta: {
+                        versionId: "2572762793",
+                        lastUpdated: "2020-12-15T21:08:31.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  9:07 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1628492",
+                                display: "Type 2 diabetes mellitus with other specified complication",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "44054006",
+                                display: "Diabetes mellitus type 2 (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 2 diabetes mellitus with other specified complication",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-15T21:07:50.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759073",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572759073",
+                    meta: {
+                        versionId: "2572759085",
+                        lastUpdated: "2020-12-10T15:38:20.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:38 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1628492",
+                                display: "Type 2 diabetes mellitus with other specified complication",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "44054006",
+                                display: "Diabetes mellitus type 2 (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 2 diabetes mellitus with other specified complication",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T15:38:02.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762745",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572762745",
+                    meta: {
+                        versionId: "2572762767",
+                        lastUpdated: "2020-12-15T21:04:38.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  9:03 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1628492",
+                                display: "Type 2 diabetes mellitus with other specified complication",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "44054006",
+                                display: "Diabetes mellitus type 2 (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 2 diabetes mellitus with other specified complication",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-15T21:03:11.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759109",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572759109",
+                    meta: {
+                        versionId: "2572762731",
+                        lastUpdated: "2020-12-15T21:02:53.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:57 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1628492",
+                                display: "Type 2 diabetes mellitus with other specified complication",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "44054006",
+                                display: "Diabetes mellitus type 2 (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 2 diabetes mellitus with other specified complication",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T15:57:47.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73116167",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73116167",
+                    meta: {
+                        versionId: "73116167",
+                        lastUpdated: "2020-12-01T19:23:46.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Dorsalgia, unspecified, Dorsalgia, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-12-01",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "732914",
+                                display: "Dorsalgia, unspecified",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "161891005",
+                                display: "Backache (finding)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Dorsalgia, unspecified",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751407",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572751407",
+                    meta: {
+                        versionId: "2572751407",
+                        lastUpdated: "2020-12-09T15:19:27.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Dorsalgia, unspecified, Dorsalgia, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec  9, 2020  3:19 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "732914",
+                                display: "Dorsalgia, unspecified",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "161891005",
+                                display: "Backache (finding)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "M54.9",
+                                display: "Dorsalgia, unspecified",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Dorsalgia, unspecified",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-12-09T15:19:27.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747653",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572747653",
+                    meta: {
+                        versionId: "2572748307",
+                        lastUpdated: "2020-12-03T20:58:56.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Dorsalgia, unspecified, Dorsalgia, unspecified</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  1, 2020  7:23 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-01",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "732914",
+                                display: "Dorsalgia, unspecified",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "161891005",
+                                display: "Backache (finding)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Dorsalgia, unspecified",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-01T19:23:34.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762669",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572762669",
+                    meta: {
+                        versionId: "2572762671",
+                        lastUpdated: "2020-12-15T20:15:21.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Dorsalgia, unspecified, Dorsalgia, unspecified</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  8:15 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "732914",
+                                display: "Dorsalgia, unspecified",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "161891005",
+                                display: "Backache (finding)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Dorsalgia, unspecified",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-15T20:15:15.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73119437",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73119437",
+                    meta: {
+                        versionId: "73120355",
+                        lastUpdated: "2020-12-09T21:35:15.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Acne atrophica, Acne atrophica</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-12-08",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "800",
+                                display: "Acne atrophica",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "72936003",
+                                display: "Acne atrophica (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Acne atrophica",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    verificationStatus: "entered-in-error",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572741317",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572741317",
+                    meta: {
+                        versionId: "2572741317",
+                        lastUpdated: "2020-11-18T18:00:27.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne atrophica, Acne atrophica</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 18, 2020  6:00 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-18",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "800",
+                                display: "Acne atrophica",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "72936003",
+                                display: "Acne atrophica (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "L70.2",
+                                display: "Acne varioliformis",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Acne atrophica",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-18T18:00:27.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751007",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572751007",
+                    meta: {
+                        versionId: "2572758639",
+                        lastUpdated: "2020-12-09T21:26:19.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne atrophica, Acne atrophica</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  8, 2020  7:08 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-08",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "800",
+                                display: "Acne atrophica",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "72936003",
+                                display: "Acne atrophica (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Acne atrophica",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-08T19:08:14.000Z",
+                },
+            },
             {
                 fullUrl:
                     "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631721",
@@ -3407,6 +4278,60 @@ const response = {
             },
             {
                 fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747181",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572747181",
+                    meta: {
+                        versionId: "2572762715",
+                        lastUpdated: "2020-12-15T20:46:04.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Traumatic pneumothorax, initial encounter, Traumatic pneumothorax, initial encounter</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 30, 2020 12:55 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-30",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "871642",
+                                display: "Traumatic pneumothorax, initial encounter",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "90070003",
+                                display: "Traumatic pneumothorax (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Traumatic pneumothorax, initial encounter",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-11-30T12:55:12.000Z",
+                },
+            },
+            {
+                fullUrl:
                     "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572610567",
                 resource: {
                     resourceType: "Condition",
@@ -3452,6 +4377,171 @@ const response = {
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
                     onsetDateTime: "2020-10-12T20:46:05.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746523",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572746523",
+                    meta: {
+                        versionId: "2572746523",
+                        lastUpdated: "2020-11-27T14:45:45.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acute pain of right knee, Acute pain of right knee</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020  2:45 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-27",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "41293448",
+                                display: "Acute pain of right knee",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "30989003",
+                                display: "Knee pain (finding)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "M25.561",
+                                display: "Pain in right knee",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Acute pain of right knee",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-27T14:45:44.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73119579",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73119579",
+                    meta: {
+                        versionId: "73120359",
+                        lastUpdated: "2020-12-09T21:35:15.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Acne cystica, Cystic acne (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "13277001",
+                                display: "Cystic acne (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "814",
+                                display: "Acne cystica",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Acne cystica",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    verificationStatus: "entered-in-error",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751049",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572751049",
+                    meta: {
+                        versionId: "2572751155",
+                        lastUpdated: "2020-12-09T03:11:12.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne cystica, Cystic acne (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  8, 2020  8:51 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-08",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "13277001",
+                                display: "Cystic acne (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "814",
+                                display: "Acne cystica",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Acne cystica",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-08T20:51:21.000Z",
                 },
             },
             {
@@ -3624,40 +4714,40 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73119579",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73122613",
                 resource: {
                     resourceType: "Condition",
-                    id: "p73119579",
+                    id: "p73122613",
                     meta: {
-                        versionId: "73120359",
-                        lastUpdated: "2020-12-09T21:35:15.000Z",
+                        versionId: "73122621",
+                        lastUpdated: "2020-12-15T20:22:09.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Acne cystica, Cystic acne (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Acute systolic congestive heart failure, Acute systolic congestive heart failure</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
                         display: "SMART, VALERIE",
                     },
-                    dateRecorded: "2020-12-09",
+                    dateRecorded: "2020-12-15",
                     code: {
                         coding: [
                             {
-                                system: "http://snomed.info/sct",
-                                code: "13277001",
-                                display: "Cystic acne (disorder)",
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "853117",
+                                display: "Acute systolic congestive heart failure",
                                 userSelected: false,
                             },
                             {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "814",
-                                display: "Acne cystica",
+                                system: "http://snomed.info/sct",
+                                code: "443254009",
+                                display: "Acute systolic heart failure (disorder)",
                                 userSelected: false,
                             },
                         ],
-                        text: "Acne cystica",
+                        text: "Acute systolic congestive heart failure",
                     },
                     category: {
                         coding: [
@@ -3675,18 +4765,18 @@ const response = {
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751049",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762673",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572751049",
+                    id: "d2572762673",
                     meta: {
-                        versionId: "2572751155",
-                        lastUpdated: "2020-12-09T03:11:12.000Z",
+                        versionId: "2572762675",
+                        lastUpdated: "2020-12-15T20:22:13.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne cystica, Cystic acne (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  8, 2020  8:51 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acute systolic congestive heart failure, Acute systolic congestive heart failure</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  8:22 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
@@ -3695,23 +4785,29 @@ const response = {
                     encounter: {
                         reference: "Encounter/97954777",
                     },
-                    dateRecorded: "2020-12-08",
+                    dateRecorded: "2020-12-15",
                     code: {
                         coding: [
                             {
-                                system: "http://snomed.info/sct",
-                                code: "13277001",
-                                display: "Cystic acne (disorder)",
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "853117",
+                                display: "Acute systolic congestive heart failure",
                                 userSelected: false,
                             },
                             {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "814",
-                                display: "Acne cystica",
+                                system: "http://snomed.info/sct",
+                                code: "443254009",
+                                display: "Acute systolic heart failure (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "I50.21",
+                                display: "Acute systolic (congestive) heart failure",
                                 userSelected: false,
                             },
                         ],
-                        text: "Acne cystica",
+                        text: "Acute systolic congestive heart failure",
                     },
                     category: {
                         coding: [
@@ -3724,145 +4820,124 @@ const response = {
                         text: "Diagnosis",
                     },
                     verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-08T20:51:21.000Z",
+                    onsetDateTime: "2020-12-15T20:22:00.000Z",
                 },
             },
             {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747181",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73120325",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572747181",
+                    id: "p73120325",
                     meta: {
-                        versionId: "2572747181",
-                        lastUpdated: "2020-11-30T12:55:12.000Z",
+                        versionId: "73120325",
+                        lastUpdated: "2020-12-09T21:34:08.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Traumatic pneumothorax, initial encounter, Traumatic pneumothorax, initial encounter</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 30, 2020 12:55 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
                         display: "SMART, VALERIE",
                     },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-30",
+                    dateRecorded: "2020-12-09",
                     code: {
                         coding: [
                             {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "871642",
-                                display: "Traumatic pneumothorax, initial encounter",
+                                code: "18598",
+                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                                 userSelected: false,
                             },
                             {
                                 system: "http://snomed.info/sct",
-                                code: "90070003",
-                                display: "Traumatic pneumothorax (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "S27.0XXA",
-                                display: "Traumatic pneumothorax, initial encounter",
+                                code: "70694009",
+                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
                                 userSelected: false,
                             },
                         ],
-                        text: "Traumatic pneumothorax, initial encounter",
+                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                     },
                     category: {
                         coding: [
                             {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
                             },
                         ],
-                        text: "Diagnosis",
+                        text: "Problem",
                     },
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-30T12:55:12.000Z",
+                    abatementBoolean: false,
                 },
             },
             {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572741779",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73119781",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572741779",
+                    id: "p73119781",
                     meta: {
-                        versionId: "2572741779",
-                        lastUpdated: "2020-11-18T22:29:55.000Z",
+                        versionId: "73120333",
+                        lastUpdated: "2020-12-09T21:34:17.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne cheloidalis, Acne keloidalis (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 18, 2020 10:29 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
                         display: "SMART, VALERIE",
                     },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-18",
+                    dateRecorded: "2020-12-09",
                     code: {
                         coding: [
                             {
-                                system: "http://snomed.info/sct",
-                                code: "238742005",
-                                display: "Acne keloidalis (disorder)",
-                                userSelected: false,
-                            },
-                            {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "319057",
-                                display: "Acne cheloidalis",
+                                code: "18598",
+                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                                 userSelected: false,
                             },
                             {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "L73.0",
-                                display: "Acne keloid",
+                                system: "http://snomed.info/sct",
+                                code: "70694009",
+                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
                                 userSelected: false,
                             },
                         ],
-                        text: "Acne cheloidalis",
+                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                     },
                     category: {
                         coding: [
                             {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
                             },
                         ],
-                        text: "Diagnosis",
+                        text: "Problem",
                     },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-18T22:29:54.000Z",
+                    verificationStatus: "entered-in-error",
+                    abatementBoolean: false,
                 },
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758777",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762783",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572758777",
+                    id: "d2572762783",
                     meta: {
-                        versionId: "2572758783",
-                        lastUpdated: "2020-12-10T00:51:14.000Z",
+                        versionId: "2572762791",
+                        lastUpdated: "2020-12-15T21:08:18.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  9:07 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
@@ -3871,23 +4946,23 @@ const response = {
                     encounter: {
                         reference: "Encounter/97953486",
                     },
-                    dateRecorded: "2020-12-10",
+                    dateRecorded: "2020-12-15",
                     code: {
                         coding: [
                             {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "1628492",
-                                display: "Type 2 diabetes mellitus with other specified complication",
+                                code: "18598",
+                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                                 userSelected: false,
                             },
                             {
                                 system: "http://snomed.info/sct",
-                                code: "44054006",
-                                display: "Diabetes mellitus type 2 (disorder)",
+                                code: "70694009",
+                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
                                 userSelected: false,
                             },
                         ],
-                        text: "Type 2 diabetes mellitus with other specified complication",
+                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                     },
                     category: {
                         coding: [
@@ -3900,23 +4975,23 @@ const response = {
                         text: "Diagnosis",
                     },
                     verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T00:51:03.000Z",
+                    onsetDateTime: "2020-12-15T21:07:50.000Z",
                 },
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751401",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751397",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572751401",
+                    id: "d2572751397",
                     meta: {
-                        versionId: "2572758771",
-                        lastUpdated: "2020-12-10T00:50:44.000Z",
+                        versionId: "2572758799",
+                        lastUpdated: "2020-12-10T00:51:58.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  3:17 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  3:17 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
@@ -3930,18 +5005,18 @@ const response = {
                         coding: [
                             {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "1628492",
-                                display: "Type 2 diabetes mellitus with other specified complication",
+                                code: "18598",
+                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                                 userSelected: false,
                             },
                             {
                                 system: "http://snomed.info/sct",
-                                code: "44054006",
-                                display: "Diabetes mellitus type 2 (disorder)",
+                                code: "70694009",
+                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
                                 userSelected: false,
                             },
                         ],
-                        text: "Type 2 diabetes mellitus with other specified complication",
+                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                     },
                     category: {
                         coding: [
@@ -3959,18 +5034,18 @@ const response = {
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758795",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762743",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572758795",
+                    id: "d2572762743",
                     meta: {
-                        versionId: "2572758803",
-                        lastUpdated: "2020-12-10T00:52:14.000Z",
+                        versionId: "2572762771",
+                        lastUpdated: "2020-12-15T21:04:50.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  9:03 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
@@ -3979,23 +5054,23 @@ const response = {
                     encounter: {
                         reference: "Encounter/97953486",
                     },
-                    dateRecorded: "2020-12-10",
+                    dateRecorded: "2020-12-15",
                     code: {
                         coding: [
                             {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "1628492",
-                                display: "Type 2 diabetes mellitus with other specified complication",
+                                code: "18598",
+                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                                 userSelected: false,
                             },
                             {
                                 system: "http://snomed.info/sct",
-                                code: "44054006",
-                                display: "Diabetes mellitus type 2 (disorder)",
+                                code: "70694009",
+                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
                                 userSelected: false,
                             },
                         ],
-                        text: "Type 2 diabetes mellitus with other specified complication",
+                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                     },
                     category: {
                         coding: [
@@ -4008,23 +5083,23 @@ const response = {
                         text: "Diagnosis",
                     },
                     verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T00:51:45.000Z",
+                    onsetDateTime: "2020-12-15T21:03:11.000Z",
                 },
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759045",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759043",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572759045",
+                    id: "d2572759043",
                     meta: {
-                        versionId: "2572759051",
-                        lastUpdated: "2020-12-10T13:59:03.000Z",
+                        versionId: "2572759049",
+                        lastUpdated: "2020-12-10T13:58:56.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  1:58 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  1:58 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
@@ -4038,18 +5113,18 @@ const response = {
                         coding: [
                             {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "1628492",
-                                display: "Type 2 diabetes mellitus with other specified complication",
+                                code: "18598",
+                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                                 userSelected: false,
                             },
                             {
                                 system: "http://snomed.info/sct",
-                                code: "44054006",
-                                display: "Diabetes mellitus type 2 (disorder)",
+                                code: "70694009",
+                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
                                 userSelected: false,
                             },
                         ],
-                        text: "Type 2 diabetes mellitus with other specified complication",
+                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                     },
                     category: {
                         coding: [
@@ -4062,23 +5137,23 @@ const response = {
                         text: "Diagnosis",
                     },
                     verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T13:58:45.000Z",
+                    onsetDateTime: "2020-12-10T13:58:44.000Z",
                 },
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759073",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759107",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572759073",
+                    id: "d2572759107",
                     meta: {
-                        versionId: "2572759085",
-                        lastUpdated: "2020-12-10T15:38:20.000Z",
+                        versionId: "2572762707",
+                        lastUpdated: "2020-12-15T20:45:55.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:38 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:57 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
@@ -4092,18 +5167,18 @@ const response = {
                         coding: [
                             {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "1628492",
-                                display: "Type 2 diabetes mellitus with other specified complication",
+                                code: "18598",
+                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                                 userSelected: false,
                             },
                             {
                                 system: "http://snomed.info/sct",
-                                code: "44054006",
-                                display: "Diabetes mellitus type 2 (disorder)",
+                                code: "70694009",
+                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
                                 userSelected: false,
                             },
                         ],
-                        text: "Type 2 diabetes mellitus with other specified complication",
+                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                     },
                     category: {
                         coding: [
@@ -4116,84 +5191,23 @@ const response = {
                         text: "Diagnosis",
                     },
                     verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T15:38:02.000Z",
+                    onsetDateTime: "2020-12-10T15:57:46.000Z",
                 },
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759109",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758701",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572759109",
+                    id: "d2572758701",
                     meta: {
-                        versionId: "2572759109",
-                        lastUpdated: "2020-12-10T15:57:47.000Z",
+                        versionId: "2572762653",
+                        lastUpdated: "2020-12-15T20:11:39.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec 10, 2020  3:57 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1628492",
-                                display: "Type 2 diabetes mellitus with other specified complication",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "44054006",
-                                display: "Diabetes mellitus type 2 (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "E11.69",
-                                display: "Type 2 diabetes mellitus with other specified complication",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Type 2 diabetes mellitus with other specified complication",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-12-10T15:57:47.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758703",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572758703",
-                    meta: {
-                        versionId: "2572758703",
-                        lastUpdated: "2020-12-09T21:34:31.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with other specified complication, Type 2 diabetes mellitus with other specified complication</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec  9, 2020  9:34 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:34 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
@@ -4207,24 +5221,18 @@ const response = {
                         coding: [
                             {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "1628492",
-                                display: "Type 2 diabetes mellitus with other specified complication",
+                                code: "18598",
+                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                                 userSelected: false,
                             },
                             {
                                 system: "http://snomed.info/sct",
-                                code: "44054006",
-                                display: "Diabetes mellitus type 2 (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "E11.69",
-                                display: "Type 2 diabetes mellitus with other specified complication",
+                                code: "70694009",
+                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
                                 userSelected: false,
                             },
                         ],
-                        text: "Type 2 diabetes mellitus with other specified complication",
+                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
                     },
                     category: {
                         coding: [
@@ -4236,9 +5244,62 @@ const response = {
                         ],
                         text: "Diagnosis",
                     },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
+                    verificationStatus: "entered-in-error",
                     onsetDateTime: "2020-12-09T21:34:30.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759075",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572759075",
+                    meta: {
+                        versionId: "2572759083",
+                        lastUpdated: "2020-12-10T15:38:17.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:38 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "18598",
+                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "70694009",
+                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T15:38:02.000Z",
                 },
             },
             {
@@ -4287,66 +5348,6 @@ const response = {
                     },
                     verificationStatus: "entered-in-error",
                     onsetDateTime: "2020-10-12T20:47:05.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758663",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572758663",
-                    meta: {
-                        versionId: "2572758669",
-                        lastUpdated: "2020-12-09T21:29:44.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Crohn&apos;s disease of both small and large intestine with rectal bleeding, Crohn&apos;s disease of both small and large intestine with rectal bleeding</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:29 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1583281",
-                                display: "Crohn's disease of both small and large intestine with rectal bleeding",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "71833008",
-                                display: "Crohn's disease of small AND large intestines (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "K50.811",
-                                display: "Crohn's disease of both small and large intestine with rectal bleeding",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Crohn's disease of both small and large intestine with rectal bleeding",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-09T21:29:02.000Z",
                 },
             },
             {
@@ -6392,40 +7393,100 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73119437",
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758663",
                 resource: {
                     resourceType: "Condition",
-                    id: "p73119437",
+                    id: "d2572758663",
                     meta: {
-                        versionId: "73120355",
-                        lastUpdated: "2020-12-09T21:35:15.000Z",
+                        versionId: "2572758669",
+                        lastUpdated: "2020-12-09T21:29:44.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Acne atrophica, Acne atrophica</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Crohn&apos;s disease of both small and large intestine with rectal bleeding, Crohn&apos;s disease of both small and large intestine with rectal bleeding</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:29 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
                         display: "SMART, VALERIE",
                     },
-                    dateRecorded: "2020-12-08",
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-09",
                     code: {
                         coding: [
                             {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "800",
-                                display: "Acne atrophica",
+                                code: "1583281",
+                                display: "Crohn's disease of both small and large intestine with rectal bleeding",
                                 userSelected: false,
                             },
                             {
                                 system: "http://snomed.info/sct",
-                                code: "72936003",
-                                display: "Acne atrophica (disorder)",
+                                code: "71833008",
+                                display: "Crohn's disease of small AND large intestines (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "K50.811",
+                                display: "Crohn's disease of both small and large intestine with rectal bleeding",
                                 userSelected: false,
                             },
                         ],
-                        text: "Acne atrophica",
+                        text: "Crohn's disease of both small and large intestine with rectal bleeding",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T21:29:02.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73115423",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73115423",
+                    meta: {
+                        versionId: "73122583",
+                        lastUpdated: "2020-12-15T20:16:31.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Brain anoxic injury, Anoxic encephalopathy (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-30",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "389098007",
+                                display: "Anoxic encephalopathy (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "380817",
+                                display: "Brain anoxic injury",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Brain anoxic injury",
                     },
                     category: {
                         coding: [
@@ -6443,18 +7504,72 @@ const response = {
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572741317",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751045",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572741317",
+                    id: "d2572751045",
                     meta: {
-                        versionId: "2572741317",
-                        lastUpdated: "2020-11-18T18:00:27.000Z",
+                        versionId: "2572751047",
+                        lastUpdated: "2020-12-08T20:51:00.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne atrophica, Acne atrophica</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 18, 2020  6:00 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Brain anoxic injury, Anoxic encephalopathy (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  8, 2020  8:49 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-08",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "389098007",
+                                display: "Anoxic encephalopathy (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "380817",
+                                display: "Brain anoxic injury",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Brain anoxic injury",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-08T20:49:38.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747185",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572747185",
+                    meta: {
+                        versionId: "2572747185",
+                        lastUpdated: "2020-11-30T12:57:18.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Brain anoxic injury, Anoxic encephalopathy (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 30, 2020 12:57 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
@@ -6463,29 +7578,29 @@ const response = {
                     encounter: {
                         reference: "Encounter/97953486",
                     },
-                    dateRecorded: "2020-11-18",
+                    dateRecorded: "2020-11-30",
                     code: {
                         coding: [
                             {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "800",
-                                display: "Acne atrophica",
+                                system: "http://snomed.info/sct",
+                                code: "389098007",
+                                display: "Anoxic encephalopathy (disorder)",
                                 userSelected: false,
                             },
                             {
-                                system: "http://snomed.info/sct",
-                                code: "72936003",
-                                display: "Acne atrophica (disorder)",
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "380817",
+                                display: "Brain anoxic injury",
                                 userSelected: false,
                             },
                             {
                                 system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "L70.2",
-                                display: "Acne varioliformis",
+                                code: "G93.1",
+                                display: "Anoxic brain damage, not elsewhere classified",
                                 userSelected: false,
                             },
                         ],
-                        text: "Acne atrophica",
+                        text: "Brain anoxic injury",
                     },
                     category: {
                         coding: [
@@ -6499,61 +7614,7 @@ const response = {
                     },
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-18T18:00:27.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751007",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572751007",
-                    meta: {
-                        versionId: "2572758639",
-                        lastUpdated: "2020-12-09T21:26:19.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne atrophica, Acne atrophica</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  8, 2020  7:08 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-12-08",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "800",
-                                display: "Acne atrophica",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "72936003",
-                                display: "Acne atrophica (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Acne atrophica",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-08T19:08:14.000Z",
+                    onsetDateTime: "2020-11-30T12:57:18.000Z",
                 },
             },
             {
@@ -6788,6 +7849,492 @@ const response = {
             },
             {
                 fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759111",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572759111",
+                    meta: {
+                        versionId: "2572762703",
+                        lastUpdated: "2020-12-15T20:43:39.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:57 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1688844",
+                                display: "Unspecified hearing loss, unspecified ear",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15188001",
+                                display: "Hearing loss (finding)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified hearing loss, unspecified ear",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T15:57:47.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758797",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758797",
+                    meta: {
+                        versionId: "2572758805",
+                        lastUpdated: "2020-12-10T00:52:23.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1688844",
+                                display: "Unspecified hearing loss, unspecified ear",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15188001",
+                                display: "Hearing loss (finding)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified hearing loss, unspecified ear",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T00:51:45.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751403",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572751403",
+                    meta: {
+                        versionId: "2572758769",
+                        lastUpdated: "2020-12-10T00:50:32.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  3:17 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1688844",
+                                display: "Unspecified hearing loss, unspecified ear",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15188001",
+                                display: "Hearing loss (finding)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified hearing loss, unspecified ear",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T15:17:58.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758775",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758775",
+                    meta: {
+                        versionId: "2572758787",
+                        lastUpdated: "2020-12-10T00:51:23.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1688844",
+                                display: "Unspecified hearing loss, unspecified ear",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15188001",
+                                display: "Hearing loss (finding)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified hearing loss, unspecified ear",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T00:51:03.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759039",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572759039",
+                    meta: {
+                        versionId: "2572759055",
+                        lastUpdated: "2020-12-10T13:59:11.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  1:58 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1688844",
+                                display: "Unspecified hearing loss, unspecified ear",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15188001",
+                                display: "Hearing loss (finding)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified hearing loss, unspecified ear",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T13:58:44.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759077",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572759077",
+                    meta: {
+                        versionId: "2572759087",
+                        lastUpdated: "2020-12-10T15:38:21.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:38 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1688844",
+                                display: "Unspecified hearing loss, unspecified ear",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15188001",
+                                display: "Hearing loss (finding)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified hearing loss, unspecified ear",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T15:38:02.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762747",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572762747",
+                    meta: {
+                        versionId: "2572762773",
+                        lastUpdated: "2020-12-15T21:04:54.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  9:03 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1688844",
+                                display: "Unspecified hearing loss, unspecified ear",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15188001",
+                                display: "Hearing loss (finding)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified hearing loss, unspecified ear",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-15T21:03:11.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762789",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572762789",
+                    meta: {
+                        versionId: "2572762799",
+                        lastUpdated: "2020-12-15T21:09:10.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  9:07 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1688844",
+                                display: "Unspecified hearing loss, unspecified ear",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15188001",
+                                display: "Hearing loss (finding)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified hearing loss, unspecified ear",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-15T21:07:51.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758705",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758705",
+                    meta: {
+                        versionId: "2572762659",
+                        lastUpdated: "2020-12-15T20:11:53.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:34 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1688844",
+                                display: "Unspecified hearing loss, unspecified ear",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15188001",
+                                display: "Hearing loss (finding)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified hearing loss, unspecified ear",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T21:34:31.000Z",
+                },
+            },
+            {
+                fullUrl:
                     "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746507",
                 resource: {
                     resourceType: "Condition",
@@ -6842,40 +8389,40 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73120253",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73122631",
                 resource: {
                     resourceType: "Condition",
-                    id: "p73120253",
+                    id: "p73122631",
                     meta: {
-                        versionId: "73121295",
-                        lastUpdated: "2020-12-10T13:58:29.000Z",
+                        versionId: "73122647",
+                        lastUpdated: "2020-12-15T20:25:20.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: HIV (human immunodeficiency virus infection), HIV (human immunodeficiency virus infection)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Testosterone adverse reaction, Testosterone adverse reaction</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
                         display: "SMART, VALERIE",
                     },
-                    dateRecorded: "2020-12-09",
+                    dateRecorded: "2020-12-15",
                     code: {
                         coding: [
                             {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "326743",
-                                display: "HIV (human immunodeficiency virus infection)",
+                                code: "715240",
+                                display: "Testosterone adverse reaction",
                                 userSelected: false,
                             },
                             {
                                 system: "http://snomed.info/sct",
-                                code: "86406008",
-                                display: "Human immunodeficiency virus infection (disorder)",
+                                code: "293238007",
+                                display: "Testosterone adverse reaction (disorder)",
                                 userSelected: false,
                             },
                         ],
-                        text: "HIV (human immunodeficiency virus infection)",
+                        text: "Testosterone adverse reaction",
                     },
                     category: {
                         coding: [
@@ -6888,57 +8435,6 @@ const response = {
                         text: "Problem",
                     },
                     verificationStatus: "entered-in-error",
-                    abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73121365",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73121365",
-                    meta: {
-                        versionId: "73121365",
-                        lastUpdated: "2020-12-10T14:04:39.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: HIV (human immunodeficiency virus infection), HIV (human immunodeficiency virus infection)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "326743",
-                                display: "HIV (human immunodeficiency virus infection)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "86406008",
-                                display: "Human immunodeficiency virus infection (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "HIV (human immunodeficiency virus infection)",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
                     abatementBoolean: false,
                 },
             },
@@ -6989,501 +8485,6 @@ const response = {
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
                     onsetDateTime: "2020-11-10T17:28:47.000Z",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105527",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105527",
-                    meta: {
-                        versionId: "73114511",
-                        lastUpdated: "2020-11-25T17:18:23.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Test anxiety, Anxiety (finding)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "48694002",
-                                display: "Anxiety (finding)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1049742",
-                                display: "Test anxiety",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Test anxiety",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    abatementBoolean: false,
-                    notes: "Nov 25, 2020  5:18 P.M. UTC - PWIMO, Physician - Hospitalist - Valerie's test anxiety",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758671",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572758671",
-                    meta: {
-                        versionId: "2572758685",
-                        lastUpdated: "2020-12-09T21:31:34.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Test anxiety, Anxiety (finding)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:29 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "48694002",
-                                display: "Anxiety (finding)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1049742",
-                                display: "Test anxiety",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Test anxiety",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-09T21:29:56.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572640565",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572640565",
-                    meta: {
-                        versionId: "2572640565",
-                        lastUpdated: "2020-11-09T20:26:20.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Test anxiety, Anxiety (finding)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  9, 2020  8:26 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "48694002",
-                                display: "Anxiety (finding)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1049742",
-                                display: "Test anxiety",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F41.8",
-                                display: "Other specified anxiety disorders",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Test anxiety",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-09T20:26:20.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758645",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572758645",
-                    meta: {
-                        versionId: "2572758655",
-                        lastUpdated: "2020-12-09T21:28:43.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Test anxiety, Anxiety (finding)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:27 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "48694002",
-                                display: "Anxiety (finding)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1049742",
-                                display: "Test anxiety",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Test anxiety",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-09T21:27:40.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758665",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572758665",
-                    meta: {
-                        versionId: "2572758667",
-                        lastUpdated: "2020-12-09T21:29:43.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Test anxiety, Anxiety (finding)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:29 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "48694002",
-                                display: "Anxiety (finding)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1049742",
-                                display: "Test anxiety",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Test anxiety",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-09T21:29:09.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627725",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627725",
-                    meta: {
-                        versionId: "2572627731",
-                        lastUpdated: "2020-11-02T16:07:02.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Test anxiety, Anxiety (finding)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov  2, 2020  3:58 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "48694002",
-                                display: "Anxiety (finding)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1049742",
-                                display: "Test anxiety",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Test anxiety",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-11-02T15:58:20.000Z",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73116167",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73116167",
-                    meta: {
-                        versionId: "73116167",
-                        lastUpdated: "2020-12-01T19:23:46.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Dorsalgia, unspecified, Dorsalgia, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-12-01",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "732914",
-                                display: "Dorsalgia, unspecified",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "161891005",
-                                display: "Backache (finding)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Dorsalgia, unspecified",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751407",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572751407",
-                    meta: {
-                        versionId: "2572751407",
-                        lastUpdated: "2020-12-09T15:19:27.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Dorsalgia, unspecified, Dorsalgia, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec  9, 2020  3:19 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "732914",
-                                display: "Dorsalgia, unspecified",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "161891005",
-                                display: "Backache (finding)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "M54.9",
-                                display: "Dorsalgia, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Dorsalgia, unspecified",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-12-09T15:19:27.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747653",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572747653",
-                    meta: {
-                        versionId: "2572748307",
-                        lastUpdated: "2020-12-03T20:58:56.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Dorsalgia, unspecified, Dorsalgia, unspecified</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  1, 2020  7:23 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-12-01",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "732914",
-                                display: "Dorsalgia, unspecified",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "161891005",
-                                display: "Backache (finding)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Dorsalgia, unspecified",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-01T19:23:34.000Z",
                 },
             },
             {
@@ -7542,56 +8543,6 @@ const response = {
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572602375",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572602375",
-                    meta: {
-                        versionId: "2572643315",
-                        lastUpdated: "2020-11-11T02:39:32.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Displaced supracondylar fracture with intracondylar extension of lower end of right femur, initial encounter for closed fracture, Displaced supracondylar fracture with intracondylar extension of lower end of right femur, initial encounter for closed fracture</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Oct  7, 2020  3:47 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-10-07",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "S72.461A",
-                                display:
-                                    "Displaced supracondylar fracture with intracondylar extension of lower end of right femur, initial encounter for closed fracture",
-                                userSelected: true,
-                            },
-                        ],
-                        text:
-                            "Displaced supracondylar fracture with intracondylar extension of lower end of right femur, initial encounter for closed fracture",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-10-07T15:47:19.000Z",
-                },
-            },
-            {
-                fullUrl:
                     "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746519",
                 resource: {
                     resourceType: "Condition",
@@ -7643,6 +8594,56 @@ const response = {
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
                     onsetDateTime: "2020-11-27T14:43:28.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572602375",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572602375",
+                    meta: {
+                        versionId: "2572643315",
+                        lastUpdated: "2020-11-11T02:39:32.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Displaced supracondylar fracture with intracondylar extension of lower end of right femur, initial encounter for closed fracture, Displaced supracondylar fracture with intracondylar extension of lower end of right femur, initial encounter for closed fracture</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Oct  7, 2020  3:47 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-10-07",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "S72.461A",
+                                display:
+                                    "Displaced supracondylar fracture with intracondylar extension of lower end of right femur, initial encounter for closed fracture",
+                                userSelected: true,
+                            },
+                        ],
+                        text:
+                            "Displaced supracondylar fracture with intracondylar extension of lower end of right femur, initial encounter for closed fracture",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-10-07T15:47:19.000Z",
                 },
             },
             {
@@ -7839,592 +8840,6 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73115423",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73115423",
-                    meta: {
-                        versionId: "73116697",
-                        lastUpdated: "2020-12-03T19:24:40.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Brain anoxic injury, Anoxic encephalopathy (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-30",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "389098007",
-                                display: "Anoxic encephalopathy (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "380817",
-                                display: "Brain anoxic injury",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Brain anoxic injury",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751045",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572751045",
-                    meta: {
-                        versionId: "2572751047",
-                        lastUpdated: "2020-12-08T20:51:00.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Brain anoxic injury, Anoxic encephalopathy (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  8, 2020  8:49 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-12-08",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "389098007",
-                                display: "Anoxic encephalopathy (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "380817",
-                                display: "Brain anoxic injury",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Brain anoxic injury",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-08T20:49:38.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747185",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572747185",
-                    meta: {
-                        versionId: "2572747185",
-                        lastUpdated: "2020-11-30T12:57:18.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Brain anoxic injury, Anoxic encephalopathy (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 30, 2020 12:57 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-30",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "389098007",
-                                display: "Anoxic encephalopathy (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "380817",
-                                display: "Brain anoxic injury",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "G93.1",
-                                display: "Anoxic brain damage, not elsewhere classified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Brain anoxic injury",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-30T12:57:18.000Z",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73119451",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73119451",
-                    meta: {
-                        versionId: "73120363",
-                        lastUpdated: "2020-12-09T21:35:16.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Acne estivalis, Acne estivalis (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-12-08",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "83218005",
-                                display: "Acne estivalis (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "838",
-                                display: "Acne estivalis",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Acne estivalis",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    verificationStatus: "entered-in-error",
-                    abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105573",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105573",
-                    meta: {
-                        versionId: "73105573",
-                        lastUpdated: "2020-11-03T05:17:24.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Schizoaffective disorder, bipolar type, Schizoaffective disorder, bipolar type</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  3, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-03",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F25.0",
-                                display: "Schizoaffective disorder, bipolar type",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Schizoaffective disorder, bipolar type",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-03",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627785",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627785",
-                    meta: {
-                        versionId: "2572627785",
-                        lastUpdated: "2020-11-03T05:17:26.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Schizoaffective disorder, bipolar type, Schizoaffective disorder, bipolar type</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  3, 2020  5:17 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-03",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F25.0",
-                                display: "Schizoaffective disorder, bipolar type",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Schizoaffective disorder, bipolar type",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-03T05:17:26.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627579",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627579",
-                    meta: {
-                        versionId: "2572627579",
-                        lastUpdated: "2020-11-02T08:46:19.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Schizoaffective disorder, bipolar type, Schizoaffective disorder, bipolar type</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020  8:46 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F25.0",
-                                display: "Schizoaffective disorder, bipolar type",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Schizoaffective disorder, bipolar type",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T08:46:19.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746525",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572746525",
-                    meta: {
-                        versionId: "2572746525",
-                        lastUpdated: "2020-11-27T14:49:37.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acute knee pain, unspecified laterality, Knee pain (finding)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020  2:49 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-27",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "30989003",
-                                display: "Knee pain (finding)",
-                                userSelected: true,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "M25.569",
-                                display: "Pain in unspecified knee",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Acute knee pain, unspecified laterality",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-27T14:49:37.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747179",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572747179",
-                    meta: {
-                        versionId: "2572747179",
-                        lastUpdated: "2020-11-30T12:50:34.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Encephalopathy, unspecified, Encephalopathy, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 30, 2020 12:50 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-30",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "732432",
-                                display: "Encephalopathy, unspecified",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "81308009",
-                                display: "Disease of brain (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "G93.40",
-                                display: "Encephalopathy, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Encephalopathy, unspecified",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-30T12:50:33.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747165",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572747165",
-                    meta: {
-                        versionId: "2572749487",
-                        lastUpdated: "2020-12-04T19:31:40.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acute kidney failure with medullary necrosis, Acute kidney failure with medullary necrosis</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 30, 2020 12:45 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-30",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1004293",
-                                display: "Acute kidney failure with medullary necrosis",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "298015003",
-                                display: "Acute renal papillary necrosis with renal failure (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Acute kidney failure with medullary necrosis",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-30T12:45:07.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747657",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572747657",
-                    meta: {
-                        versionId: "2572748303",
-                        lastUpdated: "2020-12-03T20:58:54.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with left eye affected by proliferative retinopathy and traction retinal detachment involving macula, with long-term current use of insulin, Diabetes mellitus type 2 (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  1, 2020  7:24 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-12-01",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "44054006",
-                                display: "Diabetes mellitus type 2 (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "75406202",
-                                display:
-                                    "Type 2 diabetes mellitus with left eye affected by proliferative retinopathy and traction retinal detachment involving macula, with long-term current use of insulin",
-                                userSelected: false,
-                            },
-                        ],
-                        text:
-                            "Type 2 diabetes mellitus with left eye affected by proliferative retinopathy and traction retinal detachment involving macula, with long-term current use of insulin",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-01T19:24:08.000Z",
-                },
-            },
-            {
                 fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73121337",
                 resource: {
                     resourceType: "Condition",
@@ -8436,7 +8851,7 @@ const response = {
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Diabetes mellitus, Diabetes mellitus (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Diabetes mellitus, Diabetes mellitus</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
@@ -8446,15 +8861,15 @@ const response = {
                     code: {
                         coding: [
                             {
-                                system: "http://snomed.info/sct",
-                                code: "73211009",
-                                display: "Diabetes mellitus (disorder)",
-                                userSelected: false,
-                            },
-                            {
                                 system: "http://e-imo.com/products/problem-it",
                                 code: "29688",
                                 display: "Diabetes mellitus",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "73211009",
+                                display: "Diabetes mellitus (disorder)",
                                 userSelected: false,
                             },
                         ],
@@ -8472,3493 +8887,6 @@ const response = {
                     },
                     verificationStatus: "entered-in-error",
                     abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105367",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105367",
-                    meta: {
-                        versionId: "73105367",
-                        lastUpdated: "2020-11-02T12:11:38.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105389",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105389",
-                    meta: {
-                        versionId: "73105389",
-                        lastUpdated: "2020-11-02T12:11:40.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105285",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105285",
-                    meta: {
-                        versionId: "73105285",
-                        lastUpdated: "2020-11-02T12:11:35.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105275",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105275",
-                    meta: {
-                        versionId: "73105275",
-                        lastUpdated: "2020-11-02T12:11:34.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105327",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105327",
-                    meta: {
-                        versionId: "73105327",
-                        lastUpdated: "2020-11-02T12:11:37.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105141",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105141",
-                    meta: {
-                        versionId: "73105141",
-                        lastUpdated: "2020-11-02T12:11:29.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105183",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105183",
-                    meta: {
-                        versionId: "73105183",
-                        lastUpdated: "2020-11-02T12:11:32.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105419",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105419",
-                    meta: {
-                        versionId: "73105419",
-                        lastUpdated: "2020-11-02T12:11:40.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105113",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105113",
-                    meta: {
-                        versionId: "73105113",
-                        lastUpdated: "2020-11-02T12:11:29.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105429",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105429",
-                    meta: {
-                        versionId: "73105429",
-                        lastUpdated: "2020-11-02T12:11:40.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105193",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105193",
-                    meta: {
-                        versionId: "73105193",
-                        lastUpdated: "2020-11-02T12:11:32.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105203",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105203",
-                    meta: {
-                        versionId: "73105203",
-                        lastUpdated: "2020-11-02T12:11:32.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105347",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105347",
-                    meta: {
-                        versionId: "73105347",
-                        lastUpdated: "2020-11-02T12:11:37.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105081",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105081",
-                    meta: {
-                        versionId: "73105081",
-                        lastUpdated: "2020-11-02T11:27:03.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105131",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105131",
-                    meta: {
-                        versionId: "73105131",
-                        lastUpdated: "2020-11-02T12:11:29.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105265",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105265",
-                    meta: {
-                        versionId: "73105265",
-                        lastUpdated: "2020-11-02T12:11:34.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627675",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627675",
-                    meta: {
-                        versionId: "2572627675",
-                        lastUpdated: "2020-11-02T12:11:36.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T12:11:35.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627701",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627701",
-                    meta: {
-                        versionId: "2572627701",
-                        lastUpdated: "2020-11-02T12:11:41.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T12:11:41.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627657",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627657",
-                    meta: {
-                        versionId: "2572627657",
-                        lastUpdated: "2020-11-02T12:11:31.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T12:11:31.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627695",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627695",
-                    meta: {
-                        versionId: "2572627695",
-                        lastUpdated: "2020-11-02T12:11:41.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T12:11:41.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627649",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627649",
-                    meta: {
-                        versionId: "2572627649",
-                        lastUpdated: "2020-11-02T12:11:30.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T12:11:30.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627705",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627705",
-                    meta: {
-                        versionId: "2572627705",
-                        lastUpdated: "2020-11-02T12:11:42.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T12:11:41.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627663",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627663",
-                    meta: {
-                        versionId: "2572627663",
-                        lastUpdated: "2020-11-02T12:11:33.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T12:11:33.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627687",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627687",
-                    meta: {
-                        versionId: "2572627687",
-                        lastUpdated: "2020-11-02T12:11:38.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T12:11:38.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627665",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627665",
-                    meta: {
-                        versionId: "2572627665",
-                        lastUpdated: "2020-11-02T12:11:33.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T12:11:33.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627637",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627637",
-                    meta: {
-                        versionId: "2572627637",
-                        lastUpdated: "2020-11-02T11:27:04.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 11:27 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T11:27:04.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627693",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627693",
-                    meta: {
-                        versionId: "2572627693",
-                        lastUpdated: "2020-11-02T12:11:39.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T12:11:39.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627653",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627653",
-                    meta: {
-                        versionId: "2572627653",
-                        lastUpdated: "2020-11-02T12:11:31.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T12:11:30.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627661",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627661",
-                    meta: {
-                        versionId: "2572627661",
-                        lastUpdated: "2020-11-02T12:11:33.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T12:11:33.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627681",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627681",
-                    meta: {
-                        versionId: "2572627681",
-                        lastUpdated: "2020-11-02T12:11:36.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T12:11:36.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627677",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627677",
-                    meta: {
-                        versionId: "2572627677",
-                        lastUpdated: "2020-11-02T12:11:36.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T12:11:36.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627689",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627689",
-                    meta: {
-                        versionId: "2572627689",
-                        lastUpdated: "2020-11-02T12:11:39.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.62",
-                                display: "Lupus anticoagulant syndrome",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Lupus anticoagulant syndrome",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T12:11:38.000Z",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73108733",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73108733",
-                    meta: {
-                        versionId: "73108733",
-                        lastUpdated: "2020-11-17T05:59:48.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Knee pain, Knee pain</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-17",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "78845",
-                                display: "Knee pain",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "30989003",
-                                display: "Knee pain (finding)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Knee pain",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572643325",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572643325",
-                    meta: {
-                        versionId: "2572643325",
-                        lastUpdated: "2020-11-11T04:33:34.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Chronic hepatitis, unspecified, Chronic hepatitis, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 11, 2020  4:33 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-11",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "K73.9",
-                                display: "Chronic hepatitis, unspecified",
-                                userSelected: true,
-                            },
-                        ],
-                        text: "Chronic hepatitis, unspecified",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-11T04:33:28.000Z",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73120309",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73120309",
-                    meta: {
-                        versionId: "73121329",
-                        lastUpdated: "2020-12-10T13:59:52.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Diabetes, Diabetes</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "41884",
-                                display: "Diabetes",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "73211009",
-                                display: "Diabetes mellitus (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Diabetes",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    verificationStatus: "entered-in-error",
-                    abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572556315",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572556315",
-                    meta: {
-                        versionId: "2572556315",
-                        lastUpdated: "2020-09-12T01:35:37.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acute bronchitis, Acute bronchitis</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Sep 12, 2020  1:35 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97939554",
-                    },
-                    dateRecorded: "2020-09-12",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "J20",
-                                display: "Acute bronchitis",
-                                userSelected: true,
-                            },
-                        ],
-                        text: "Acute bronchitis",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-09-12T01:35:00.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746521",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572746521",
-                    meta: {
-                        versionId: "2572746521",
-                        lastUpdated: "2020-11-27T14:44:10.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Traumatic pneumothorax, subsequent encounter, Traumatic pneumothorax (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020  2:44 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-27",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "90070003",
-                                display: "Traumatic pneumothorax (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "871643",
-                                display: "Traumatic pneumothorax, subsequent encounter",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "S27.0XXD",
-                                display: "Traumatic pneumothorax, subsequent encounter",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Traumatic pneumothorax, subsequent encounter",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-27T14:44:10.000Z",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73115401",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73115401",
-                    meta: {
-                        versionId: "73115401",
-                        lastUpdated: "2020-11-30T12:46:46.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Intercostal pain, Pain of intercostal space</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-30",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "735940001",
-                                display: "Pain of intercostal space",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1076378",
-                                display: "Intercostal pain",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Intercostal pain",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747173",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572747173",
-                    meta: {
-                        versionId: "2572747173",
-                        lastUpdated: "2020-11-30T12:46:47.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Intercostal pain, Pain of intercostal space</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 30, 2020 12:46 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-30",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "735940001",
-                                display: "Pain of intercostal space",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1076378",
-                                display: "Intercostal pain",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "R07.82",
-                                display: "Intercostal pain",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Intercostal pain",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-30T12:46:47.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572599757",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572599757",
-                    meta: {
-                        versionId: "2572610559",
-                        lastUpdated: "2020-10-12T20:48:47.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Von Willebrand&apos;s disease, Von Willebrand&apos;s disease</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Oct  6, 2020  6:54 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-10-06",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "D68.0",
-                                display: "Von Willebrand's disease",
-                                userSelected: true,
-                            },
-                        ],
-                        text: "Von Willebrand's disease",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-10-06T18:54:31.000Z",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73098283",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73098283",
-                    meta: {
-                        versionId: "73120371",
-                        lastUpdated: "2020-12-09T21:35:42.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Chronic atrial fibrillation, Chronic atrial fibrillation (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec  3, 2014</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-09-29",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "426749004",
-                                display: "Chronic atrial fibrillation (disorder)",
-                                userSelected: true,
-                            },
-                        ],
-                        text: "Chronic atrial fibrillation",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2014-12-03",
-                    abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572586797",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572586797",
-                    meta: {
-                        versionId: "2572586799",
-                        lastUpdated: "2020-09-29T15:03:05.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Chronic atrial fibrillation, Chronic atrial fibrillation (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Sep 29, 2020  5:00 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-09-29",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "426749004",
-                                display: "Chronic atrial fibrillation (disorder)",
-                                userSelected: true,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "I48.20",
-                                display: "Chronic atrial fibrillation, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Chronic atrial fibrillation",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-09-29T17:00:00.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758675",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572758675",
-                    meta: {
-                        versionId: "2572758681",
-                        lastUpdated: "2020-12-09T21:31:30.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Symptomatic HIV infection, Symptomatic HIV infection</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:30 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1712427",
-                                display: "Symptomatic HIV infection",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "81000119104",
-                                display: "Symptomatic human immunodeficiency virus infection (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Symptomatic HIV infection",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-09T21:30:04.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758643",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572758643",
-                    meta: {
-                        versionId: "2572758653",
-                        lastUpdated: "2020-12-09T21:28:40.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Symptomatic HIV infection, Symptomatic HIV infection</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:27 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1712427",
-                                display: "Symptomatic HIV infection",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "81000119104",
-                                display: "Symptomatic human immunodeficiency virus infection (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Symptomatic HIV infection",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-09T21:27:33.000Z",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73094551",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73094551",
-                    meta: {
-                        versionId: "73094551",
-                        lastUpdated: "2020-09-12T01:36:01.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Pneumothorax, Pneumothorax (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-09-12",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "36118008",
-                                display: "Pneumothorax (disorder)",
-                                userSelected: true,
-                            },
-                        ],
-                        text: "Pneumothorax",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747175",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572747175",
-                    meta: {
-                        versionId: "2572747175",
-                        lastUpdated: "2020-11-30T12:47:52.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Pneumothorax, unspecified type, Pneumothorax (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 30, 2020 12:47 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-30",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "36118008",
-                                display: "Pneumothorax (disorder)",
-                                userSelected: true,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "J93.9",
-                                display: "Pneumothorax, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Pneumothorax, unspecified type",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-30T12:47:52.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572556317",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572556317",
-                    meta: {
-                        versionId: "2572556317",
-                        lastUpdated: "2020-09-12T01:37:27.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Pneumothorax, Pneumothorax (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Sep 12, 2020  1:37 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97939554",
-                    },
-                    dateRecorded: "2020-09-12",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "36118008",
-                                display: "Pneumothorax (disorder)",
-                                userSelected: true,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "J93.9",
-                                display: "Pneumothorax, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Pneumothorax",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-09-12T01:37:00.000Z",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73119591",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73119591",
-                    meta: {
-                        versionId: "73120367",
-                        lastUpdated: "2020-12-09T21:35:16.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Acne vulgaris, Acne vulgaris</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "801",
-                                display: "Acne vulgaris",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "11381005",
-                                display: "Acne (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Acne vulgaris",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    verificationStatus: "entered-in-error",
-                    abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751157",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572751157",
-                    meta: {
-                        versionId: "2572758641",
-                        lastUpdated: "2020-12-09T21:27:04.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne vulgaris, Acne vulgaris</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  3:12 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "801",
-                                display: "Acne vulgaris",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "11381005",
-                                display: "Acne (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Acne vulgaris",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-09T03:12:26.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746517",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572746517",
-                    meta: {
-                        versionId: "2572746517",
-                        lastUpdated: "2020-11-27T14:40:52.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Primary spontaneous pneumothorax, Primary spontaneous pneumothorax</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020  2:40 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-27",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1808895",
-                                display: "Primary spontaneous pneumothorax",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "80423007",
-                                display: "Spontaneous pneumothorax (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "J93.11",
-                                display: "Primary spontaneous pneumothorax",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Primary spontaneous pneumothorax",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-27T14:40:52.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631675",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572631675",
-                    meta: {
-                        versionId: "2572631675",
-                        lastUpdated: "2020-11-04T09:09:48.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-04",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "C81.9",
-                                display: "Hodgkin lymphoma, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Hodgkin Disease",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "differential",
-                    onsetDateTime: "2020-11-04T09:09:48.000Z",
-                    notes: "From Isabel DDx Tool.",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631615",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572631615",
-                    meta: {
-                        versionId: "2572631615",
-                        lastUpdated: "2020-11-04T09:09:27.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-04",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "C81.9",
-                                display: "Hodgkin lymphoma, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Hodgkin Disease",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "differential",
-                    onsetDateTime: "2020-11-04T09:09:26.000Z",
-                    notes: "From Isabel DDx Tool.",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631603",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572631603",
-                    meta: {
-                        versionId: "2572631603",
-                        lastUpdated: "2020-11-04T09:09:22.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-04",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "C81.9",
-                                display: "Hodgkin lymphoma, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Hodgkin Disease",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "differential",
-                    onsetDateTime: "2020-11-04T09:09:22.000Z",
-                    notes: "From Isabel DDx Tool.",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631627",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572631627",
-                    meta: {
-                        versionId: "2572759099",
-                        lastUpdated: "2020-12-10T15:55:08.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-04",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "C81.9",
-                                display: "Hodgkin lymphoma, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Hodgkin Disease",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-11-04T09:09:31.000Z",
-                    notes: "From Isabel DDx Tool.",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631663",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572631663",
-                    meta: {
-                        versionId: "2572631663",
-                        lastUpdated: "2020-11-04T09:09:43.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-04",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "C81.9",
-                                display: "Hodgkin lymphoma, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Hodgkin Disease",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "differential",
-                    onsetDateTime: "2020-11-04T09:09:43.000Z",
-                    notes: "From Isabel DDx Tool.",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631651",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572631651",
-                    meta: {
-                        versionId: "2572631651",
-                        lastUpdated: "2020-11-04T09:09:39.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-04",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "C81.9",
-                                display: "Hodgkin lymphoma, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Hodgkin Disease",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "differential",
-                    onsetDateTime: "2020-11-04T09:09:39.000Z",
-                    notes: "From Isabel DDx Tool.",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631687",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572631687",
-                    meta: {
-                        versionId: "2572631687",
-                        lastUpdated: "2020-11-04T09:09:52.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-04",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "C81.9",
-                                display: "Hodgkin lymphoma, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Hodgkin Disease",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "differential",
-                    onsetDateTime: "2020-11-04T09:09:52.000Z",
-                    notes: "From Isabel DDx Tool.",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631699",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572631699",
-                    meta: {
-                        versionId: "2572631699",
-                        lastUpdated: "2020-11-04T09:09:56.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-04",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "C81.9",
-                                display: "Hodgkin lymphoma, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Hodgkin Disease",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "differential",
-                    onsetDateTime: "2020-11-04T09:09:56.000Z",
-                    notes: "From Isabel DDx Tool.",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631639",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572631639",
-                    meta: {
-                        versionId: "2572631639",
-                        lastUpdated: "2020-11-04T09:09:35.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-04",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "C81.9",
-                                display: "Hodgkin lymphoma, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Hodgkin Disease",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "differential",
-                    onsetDateTime: "2020-11-04T09:09:35.000Z",
-                    notes: "From Isabel DDx Tool.",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572741323",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572741323",
-                    meta: {
-                        versionId: "2572741323",
-                        lastUpdated: "2020-11-18T18:15:54.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne conglobata, Acne conglobata (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 18, 2020  6:15 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-18",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "42228007",
-                                display: "Acne conglobata (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "809",
-                                display: "Acne conglobata",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "L70.1",
-                                display: "Acne conglobata",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Acne conglobata",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-18T18:15:54.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747161",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572747161",
-                    meta: {
-                        versionId: "2572747161",
-                        lastUpdated: "2020-11-30T12:43:47.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Chest injury, subsequent encounter, Chest injury (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 30, 2020 12:43 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-30",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "262525000",
-                                display: "Chest injury (disorder)",
-                                userSelected: true,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "S29.9XXD",
-                                display: "Unspecified injury of thorax, subsequent encounter",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Chest injury, subsequent encounter",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-30T12:43:47.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746531",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572746531",
-                    meta: {
-                        versionId: "2572746531",
-                        lastUpdated: "2020-11-27T14:54:50.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Chest injury, subsequent encounter, Chest injury (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020  2:54 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-27",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "262525000",
-                                display: "Chest injury (disorder)",
-                                userSelected: true,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "S29.9XXD",
-                                display: "Unspecified injury of thorax, subsequent encounter",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Chest injury, subsequent encounter",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-27T14:54:50.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751409",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572751409",
-                    meta: {
-                        versionId: "2572751409",
-                        lastUpdated: "2020-12-09T15:19:43.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Chest injury, subsequent encounter, Chest injury (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec  9, 2020  3:19 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "262525000",
-                                display: "Chest injury (disorder)",
-                                userSelected: true,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "S29.9XXD",
-                                display: "Unspecified injury of thorax, subsequent encounter",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Chest injury, subsequent encounter",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-12-09T15:19:43.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746499",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572746499",
-                    meta: {
-                        versionId: "2572746499",
-                        lastUpdated: "2020-11-27T11:55:13.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Chest injury, subsequent encounter, Chest injury (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020 11:55 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-27",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "262525000",
-                                display: "Chest injury (disorder)",
-                                userSelected: true,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "S29.9XXD",
-                                display: "Unspecified injury of thorax, subsequent encounter",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Chest injury, subsequent encounter",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-27T11:55:13.000Z",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73116175",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73116175",
-                    meta: {
-                        versionId: "73116175",
-                        lastUpdated: "2020-12-01T19:23:58.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Anomaly, spine, Anomaly, spine</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-12-01",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "310596",
-                                display: "Anomaly, spine",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "298380006",
-                                display: "Deformity of spine (finding)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Anomaly, spine",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751405",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572751405",
-                    meta: {
-                        versionId: "2572751405",
-                        lastUpdated: "2020-12-09T15:19:23.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Anomaly, spine, Anomaly, spine</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec  9, 2020  3:19 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "310596",
-                                display: "Anomaly, spine",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "298380006",
-                                display: "Deformity of spine (finding)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "Q76.49",
-                                display: "Other congenital malformations of spine, not associated with scoliosis",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Anomaly, spine",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-12-09T15:19:22.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572587715",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572587715",
-                    meta: {
-                        versionId: "2572610563",
-                        lastUpdated: "2020-10-12T20:48:47.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Paroxysmal atrial fibrillation, Paroxysmal atrial fibrillation</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Sep 30, 2020  2:40 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-09-30",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "I48.0",
-                                display: "Paroxysmal atrial fibrillation",
-                                userSelected: true,
-                            },
-                        ],
-                        text: "Paroxysmal atrial fibrillation",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-09-30T14:40:37.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572588277",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572588277",
-                    meta: {
-                        versionId: "2572618553",
-                        lastUpdated: "2020-10-19T14:37:34.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Paroxysmal atrial fibrillation, Paroxysmal atrial fibrillation</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Sep 28, 2020 10:24 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97939533",
-                    },
-                    dateRecorded: "2020-10-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "I48.0",
-                                display: "Paroxysmal atrial fibrillation",
-                                userSelected: true,
-                            },
-                        ],
-                        text: "Paroxysmal atrial fibrillation",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-09-28T22:24:44.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572610569",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572610569",
-                    meta: {
-                        versionId: "2572643997",
-                        lastUpdated: "2020-11-11T15:57:47.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Paroxysmal atrial fibrillation, Paroxysmal atrial fibrillation</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Oct 12, 2020  8:46 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-10-12",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "I48.0",
-                                display: "Paroxysmal atrial fibrillation",
-                                userSelected: true,
-                            },
-                        ],
-                        text: "Paroxysmal atrial fibrillation",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-10-12T20:46:28.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572618549",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572618549",
-                    meta: {
-                        versionId: "2572618549",
-                        lastUpdated: "2020-10-19T14:37:34.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Gonococcal sepsis, Gonococcal sepsis</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Oct 19, 2020  2:33 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97939533",
-                    },
-                    dateRecorded: "2020-10-19",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "A54.86",
-                                display: "Gonococcal sepsis",
-                                userSelected: true,
-                            },
-                        ],
-                        text: "Gonococcal sepsis",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-10-19T14:33:46.000Z",
                 },
             },
             {
@@ -12010,6 +8938,60 @@ const response = {
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
                     abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747159",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572747159",
+                    meta: {
+                        versionId: "2572762719",
+                        lastUpdated: "2020-12-15T20:46:09.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Anxiety attack, Anxiety attack (finding)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 30, 2020 12:39 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-30",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "300895004",
+                                display: "Anxiety attack (finding)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "58457",
+                                display: "Anxiety attack",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Anxiety attack",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-11-30T12:39:46.000Z",
                 },
             },
             {
@@ -12176,67 +9158,6 @@ const response = {
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747159",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572747159",
-                    meta: {
-                        versionId: "2572747159",
-                        lastUpdated: "2020-11-30T12:39:46.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Anxiety attack, Anxiety attack (finding)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 30, 2020 12:39 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-30",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "300895004",
-                                display: "Anxiety attack (finding)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "58457",
-                                display: "Anxiety attack",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F41.0",
-                                display: "Panic disorder [episodic paroxysmal anxiety] without agoraphobia",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Anxiety attack",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-30T12:39:46.000Z",
-                },
-            },
-            {
-                fullUrl:
                     "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751005",
                 resource: {
                     resourceType: "Condition",
@@ -12291,18 +9212,18 @@ const response = {
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746501",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572741323",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572746501",
+                    id: "d2572741323",
                     meta: {
-                        versionId: "2572746501",
-                        lastUpdated: "2020-11-27T12:21:06.000Z",
+                        versionId: "2572741323",
+                        lastUpdated: "2020-11-18T18:15:54.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Mild persistent asthma with status asthmaticus, Acute severe exacerbation of mild persistent asthma (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020 12:21 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne conglobata, Acne conglobata</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 18, 2020  6:15 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
@@ -12311,29 +9232,29 @@ const response = {
                     encounter: {
                         reference: "Encounter/97953486",
                     },
-                    dateRecorded: "2020-11-27",
+                    dateRecorded: "2020-11-18",
                     code: {
                         coding: [
                             {
-                                system: "http://snomed.info/sct",
-                                code: "707981009",
-                                display: "Acute severe exacerbation of mild persistent asthma (disorder)",
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "809",
+                                display: "Acne conglobata",
                                 userSelected: false,
                             },
                             {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1585319",
-                                display: "Mild persistent asthma with status asthmaticus",
+                                system: "http://snomed.info/sct",
+                                code: "42228007",
+                                display: "Acne conglobata (disorder)",
                                 userSelected: false,
                             },
                             {
                                 system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "J45.32",
-                                display: "Mild persistent asthma with status asthmaticus",
+                                code: "L70.1",
+                                display: "Acne conglobata",
                                 userSelected: false,
                             },
                         ],
-                        text: "Mild persistent asthma with status asthmaticus",
+                        text: "Acne conglobata",
                     },
                     category: {
                         coding: [
@@ -12347,142 +9268,7 @@ const response = {
                     },
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-27T12:21:06.000Z",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105213",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105213",
-                    meta: {
-                        versionId: "73105213",
-                        lastUpdated: "2020-11-02T12:11:32.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Type 2 diabetes mellitus without complications, Type 2 diabetes mellitus without complications</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "E11.9",
-                                display: "Type 2 diabetes mellitus without complications",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Type 2 diabetes mellitus without complications",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105317",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105317",
-                    meta: {
-                        versionId: "73105317",
-                        lastUpdated: "2020-11-02T12:11:37.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Type 2 diabetes mellitus without complications, Type 2 diabetes mellitus without complications</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "E11.9",
-                                display: "Type 2 diabetes mellitus without complications",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Type 2 diabetes mellitus without complications",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105439",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105439",
-                    meta: {
-                        versionId: "73105439",
-                        lastUpdated: "2020-11-02T12:11:40.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Type 2 diabetes mellitus without complications, Type 2 diabetes mellitus without complications</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "E11.9",
-                                display: "Type 2 diabetes mellitus without complications",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Type 2 diabetes mellitus without complications",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
+                    onsetDateTime: "2020-11-18T18:15:54.000Z",
                 },
             },
             {
@@ -12531,12 +9317,57 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105101",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105357",
                 resource: {
                     resourceType: "Condition",
-                    id: "p73105101",
+                    id: "p73105357",
                     meta: {
-                        versionId: "73105101",
+                        versionId: "73105357",
+                        lastUpdated: "2020-11-02T12:11:37.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Type 2 diabetes mellitus without complications, Type 2 diabetes mellitus without complications</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "E11.9",
+                                display: "Type 2 diabetes mellitus without complications",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 2 diabetes mellitus without complications",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105143",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105143",
+                    meta: {
+                        versionId: "73105143",
                         lastUpdated: "2020-11-02T12:11:29.000Z",
                     },
                     text: {
@@ -12576,13 +9407,13 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105295",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105317",
                 resource: {
                     resourceType: "Condition",
-                    id: "p73105295",
+                    id: "p73105317",
                     meta: {
-                        versionId: "73105295",
-                        lastUpdated: "2020-11-02T12:11:35.000Z",
+                        versionId: "73105317",
+                        lastUpdated: "2020-11-02T12:11:37.000Z",
                     },
                     text: {
                         status: "generated",
@@ -12711,12 +9542,57 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105409",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105295",
                 resource: {
                     resourceType: "Condition",
-                    id: "p73105409",
+                    id: "p73105295",
                     meta: {
-                        versionId: "73105409",
+                        versionId: "73105295",
+                        lastUpdated: "2020-11-02T12:11:35.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Type 2 diabetes mellitus without complications, Type 2 diabetes mellitus without complications</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "E11.9",
+                                display: "Type 2 diabetes mellitus without complications",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 2 diabetes mellitus without complications",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105439",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105439",
+                    meta: {
+                        versionId: "73105439",
                         lastUpdated: "2020-11-02T12:11:40.000Z",
                     },
                     text: {
@@ -12756,12 +9632,57 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105143",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105223",
                 resource: {
                     resourceType: "Condition",
-                    id: "p73105143",
+                    id: "p73105223",
                     meta: {
-                        versionId: "73105143",
+                        versionId: "73105223",
+                        lastUpdated: "2020-11-02T12:11:32.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Type 2 diabetes mellitus without complications, Type 2 diabetes mellitus without complications</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "E11.9",
+                                display: "Type 2 diabetes mellitus without complications",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 2 diabetes mellitus without complications",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105101",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105101",
+                    meta: {
+                        versionId: "73105101",
                         lastUpdated: "2020-11-02T12:11:29.000Z",
                     },
                     text: {
@@ -12846,12 +9767,12 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105223",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105213",
                 resource: {
                     resourceType: "Condition",
-                    id: "p73105223",
+                    id: "p73105213",
                     meta: {
-                        versionId: "73105223",
+                        versionId: "73105213",
                         lastUpdated: "2020-11-02T12:11:32.000Z",
                     },
                     text: {
@@ -12891,13 +9812,13 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105357",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105409",
                 resource: {
                     resourceType: "Condition",
-                    id: "p73105357",
+                    id: "p73105409",
                     meta: {
-                        versionId: "73105357",
-                        lastUpdated: "2020-11-02T12:11:37.000Z",
+                        versionId: "73105409",
+                        lastUpdated: "2020-11-02T12:11:40.000Z",
                     },
                     text: {
                         status: "generated",
@@ -13758,6 +10679,4567 @@ const response = {
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
                     onsetDateTime: "2020-11-02T12:11:35.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105573",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105573",
+                    meta: {
+                        versionId: "73105573",
+                        lastUpdated: "2020-11-03T05:17:24.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Schizoaffective disorder, bipolar type, Schizoaffective disorder, bipolar type</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  3, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-03",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "F25.0",
+                                display: "Schizoaffective disorder, bipolar type",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Schizoaffective disorder, bipolar type",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-03",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627785",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627785",
+                    meta: {
+                        versionId: "2572627785",
+                        lastUpdated: "2020-11-03T05:17:26.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Schizoaffective disorder, bipolar type, Schizoaffective disorder, bipolar type</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  3, 2020  5:17 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-03",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "F25.0",
+                                display: "Schizoaffective disorder, bipolar type",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Schizoaffective disorder, bipolar type",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-03T05:17:26.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627579",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627579",
+                    meta: {
+                        versionId: "2572627579",
+                        lastUpdated: "2020-11-02T08:46:19.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Schizoaffective disorder, bipolar type, Schizoaffective disorder, bipolar type</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020  8:46 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "F25.0",
+                                display: "Schizoaffective disorder, bipolar type",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Schizoaffective disorder, bipolar type",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T08:46:19.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73114679",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73114679",
+                    meta: {
+                        versionId: "73114679",
+                        lastUpdated: "2020-11-27T11:54:52.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Chest injury, Chest injury</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-27",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "55631",
+                                display: "Chest injury",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "262525000",
+                                display: "Chest injury (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Chest injury",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73119451",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73119451",
+                    meta: {
+                        versionId: "73120363",
+                        lastUpdated: "2020-12-09T21:35:16.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Acne estivalis, Acne estivalis (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-12-08",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "83218005",
+                                display: "Acne estivalis (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "838",
+                                display: "Acne estivalis",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Acne estivalis",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    verificationStatus: "entered-in-error",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746525",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572746525",
+                    meta: {
+                        versionId: "2572746525",
+                        lastUpdated: "2020-11-27T14:49:37.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acute knee pain, unspecified laterality, Knee pain (finding)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020  2:49 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-27",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "30989003",
+                                display: "Knee pain (finding)",
+                                userSelected: true,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "M25.569",
+                                display: "Pain in unspecified knee",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Acute knee pain, unspecified laterality",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-27T14:49:37.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762677",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572762677",
+                    meta: {
+                        versionId: "2572762679",
+                        lastUpdated: "2020-12-15T20:23:10.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Alcoholic cirrhosis of liver with ascites, Alcoholic cirrhosis of liver with ascites</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  8:23 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1582924",
+                                display: "Alcoholic cirrhosis of liver with ascites",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "420054005",
+                                display: "Alcoholic cirrhosis (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Alcoholic cirrhosis of liver with ascites",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-15T20:23:04.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747179",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572747179",
+                    meta: {
+                        versionId: "2572747179",
+                        lastUpdated: "2020-11-30T12:50:34.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Encephalopathy, unspecified, Encephalopathy, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 30, 2020 12:50 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-30",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "732432",
+                                display: "Encephalopathy, unspecified",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "81308009",
+                                display: "Disease of brain (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "G93.40",
+                                display: "Encephalopathy, unspecified",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Encephalopathy, unspecified",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-30T12:50:33.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73094551",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73094551",
+                    meta: {
+                        versionId: "73094551",
+                        lastUpdated: "2020-09-12T01:36:01.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Pneumothorax, Pneumothorax (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-09-12",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "36118008",
+                                display: "Pneumothorax (disorder)",
+                                userSelected: true,
+                            },
+                        ],
+                        text: "Pneumothorax",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747175",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572747175",
+                    meta: {
+                        versionId: "2572747175",
+                        lastUpdated: "2020-11-30T12:47:52.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Pneumothorax, unspecified type, Pneumothorax (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 30, 2020 12:47 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-30",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "36118008",
+                                display: "Pneumothorax (disorder)",
+                                userSelected: true,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "J93.9",
+                                display: "Pneumothorax, unspecified",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Pneumothorax, unspecified type",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-30T12:47:52.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572556317",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572556317",
+                    meta: {
+                        versionId: "2572556317",
+                        lastUpdated: "2020-09-12T01:37:27.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Pneumothorax, Pneumothorax (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Sep 12, 2020  1:37 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97939554",
+                    },
+                    dateRecorded: "2020-09-12",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "36118008",
+                                display: "Pneumothorax (disorder)",
+                                userSelected: true,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "J93.9",
+                                display: "Pneumothorax, unspecified",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Pneumothorax",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-09-12T01:37:00.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73122591",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73122591",
+                    meta: {
+                        versionId: "73122599",
+                        lastUpdated: "2020-12-15T20:18:51.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Major depression, recurrent, Recurrent major depression (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec  1, 2011</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "66344007",
+                                display: "Recurrent major depression (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "314965",
+                                display: "Major depression, recurrent",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Major depression, recurrent",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2011-12-01",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746515",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572746515",
+                    meta: {
+                        versionId: "2572746515",
+                        lastUpdated: "2020-11-27T14:39:58.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Postprocedural pneumothorax, Postprocedural respiratory disorders (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020  2:39 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-27",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "196187007",
+                                display: "Postprocedural respiratory disorders (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1811314",
+                                display: "Postprocedural pneumothorax",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "J95.811",
+                                display: "Postprocedural pneumothorax",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Postprocedural pneumothorax",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-27T14:39:58.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747161",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572747161",
+                    meta: {
+                        versionId: "2572747161",
+                        lastUpdated: "2020-11-30T12:43:47.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Chest injury, subsequent encounter, Chest injury (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 30, 2020 12:43 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-30",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "262525000",
+                                display: "Chest injury (disorder)",
+                                userSelected: true,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "S29.9XXD",
+                                display: "Unspecified injury of thorax, subsequent encounter",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Chest injury, subsequent encounter",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-30T12:43:47.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751409",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572751409",
+                    meta: {
+                        versionId: "2572762709",
+                        lastUpdated: "2020-12-15T20:45:58.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Chest injury, subsequent encounter, Chest injury (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  3:19 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "262525000",
+                                display: "Chest injury (disorder)",
+                                userSelected: true,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "S29.9XXD",
+                                display: "Unspecified injury of thorax, subsequent encounter",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Chest injury, subsequent encounter",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T15:19:43.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746531",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572746531",
+                    meta: {
+                        versionId: "2572762721",
+                        lastUpdated: "2020-12-15T20:46:10.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Chest injury, subsequent encounter, Chest injury (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 27, 2020  2:54 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-27",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "262525000",
+                                display: "Chest injury (disorder)",
+                                userSelected: true,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "S29.9XXD",
+                                display: "Unspecified injury of thorax, subsequent encounter",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Chest injury, subsequent encounter",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-11-27T14:54:50.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746499",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572746499",
+                    meta: {
+                        versionId: "2572746499",
+                        lastUpdated: "2020-11-27T11:55:13.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Chest injury, subsequent encounter, Chest injury (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020 11:55 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-27",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "262525000",
+                                display: "Chest injury (disorder)",
+                                userSelected: true,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "S29.9XXD",
+                                display: "Unspecified injury of thorax, subsequent encounter",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Chest injury, subsequent encounter",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-27T11:55:13.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747657",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572747657",
+                    meta: {
+                        versionId: "2572748303",
+                        lastUpdated: "2020-12-03T20:58:54.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 2 diabetes mellitus with left eye affected by proliferative retinopathy and traction retinal detachment involving macula, with long-term current use of insulin, Type 2 diabetes mellitus with left eye affected by proliferative retinopathy and traction retinal detachment involving macula, with long-term current use of insulin</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  1, 2020  7:24 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-01",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "75406202",
+                                display:
+                                    "Type 2 diabetes mellitus with left eye affected by proliferative retinopathy and traction retinal detachment involving macula, with long-term current use of insulin",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "44054006",
+                                display: "Diabetes mellitus type 2 (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text:
+                            "Type 2 diabetes mellitus with left eye affected by proliferative retinopathy and traction retinal detachment involving macula, with long-term current use of insulin",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-01T19:24:08.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73120309",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73120309",
+                    meta: {
+                        versionId: "73121329",
+                        lastUpdated: "2020-12-10T13:59:52.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Diabetes, Diabetes</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "41884",
+                                display: "Diabetes",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "73211009",
+                                display: "Diabetes mellitus (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Diabetes",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    verificationStatus: "entered-in-error",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762727",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572762727",
+                    meta: {
+                        versionId: "2572762729",
+                        lastUpdated: "2020-12-15T21:02:34.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Congenital cirrhosis, Cirrhosis of liver (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  9:00 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "19943007",
+                                display: "Cirrhosis of liver (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "800513",
+                                display: "Congenital cirrhosis",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "P78.81",
+                                display: "Congenital cirrhosis (of liver)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Congenital cirrhosis",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-15T21:00:59.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762777",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572762777",
+                    meta: {
+                        versionId: "2572762779",
+                        lastUpdated: "2020-12-15T21:07:27.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Congenital cirrhosis, Cirrhosis of liver (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  9:05 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "19943007",
+                                display: "Cirrhosis of liver (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "800513",
+                                display: "Congenital cirrhosis",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "P78.81",
+                                display: "Congenital cirrhosis (of liver)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Congenital cirrhosis",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-15T21:05:59.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762723",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572762723",
+                    meta: {
+                        versionId: "2572762725",
+                        lastUpdated: "2020-12-15T20:59:54.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Congenital cirrhosis, Cirrhosis of liver (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  8:58 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "19943007",
+                                display: "Cirrhosis of liver (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "800513",
+                                display: "Congenital cirrhosis",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "P78.81",
+                                display: "Congenital cirrhosis (of liver)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Congenital cirrhosis",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-15T20:58:08.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572643325",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572643325",
+                    meta: {
+                        versionId: "2572643325",
+                        lastUpdated: "2020-11-11T04:33:34.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Chronic hepatitis, unspecified, Chronic hepatitis, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 11, 2020  4:33 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-11",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "K73.9",
+                                display: "Chronic hepatitis, unspecified",
+                                userSelected: true,
+                            },
+                        ],
+                        text: "Chronic hepatitis, unspecified",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-11T04:33:28.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73108733",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73108733",
+                    meta: {
+                        versionId: "73108733",
+                        lastUpdated: "2020-11-17T05:59:48.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Knee pain, Knee pain</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-17",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "78845",
+                                display: "Knee pain",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "30989003",
+                                display: "Knee pain (finding)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Knee pain",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105527",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105527",
+                    meta: {
+                        versionId: "73114511",
+                        lastUpdated: "2020-11-25T17:18:23.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Test anxiety, Anxiety (finding)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "48694002",
+                                display: "Anxiety (finding)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1049742",
+                                display: "Test anxiety",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Test anxiety",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    abatementBoolean: false,
+                    notes: "Nov 25, 2020  5:18 P.M. UTC - PWIMO, Physician - Hospitalist - Valerie's test anxiety",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758671",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758671",
+                    meta: {
+                        versionId: "2572758685",
+                        lastUpdated: "2020-12-09T21:31:34.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Test anxiety, Anxiety (finding)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:29 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "48694002",
+                                display: "Anxiety (finding)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1049742",
+                                display: "Test anxiety",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Test anxiety",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T21:29:56.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572640565",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572640565",
+                    meta: {
+                        versionId: "2572640565",
+                        lastUpdated: "2020-11-09T20:26:20.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Test anxiety, Anxiety (finding)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  9, 2020  8:26 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "48694002",
+                                display: "Anxiety (finding)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1049742",
+                                display: "Test anxiety",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "F41.8",
+                                display: "Other specified anxiety disorders",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Test anxiety",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-09T20:26:20.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762663",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572762663",
+                    meta: {
+                        versionId: "2572762663",
+                        lastUpdated: "2020-12-15T20:12:07.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Test anxiety, Anxiety (finding)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec 15, 2020  8:12 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "48694002",
+                                display: "Anxiety (finding)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1049742",
+                                display: "Test anxiety",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "F41.8",
+                                display: "Other specified anxiety disorders",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Test anxiety",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-12-15T20:12:06.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758645",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758645",
+                    meta: {
+                        versionId: "2572758655",
+                        lastUpdated: "2020-12-09T21:28:43.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Test anxiety, Anxiety (finding)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:27 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "48694002",
+                                display: "Anxiety (finding)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1049742",
+                                display: "Test anxiety",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Test anxiety",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T21:27:40.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758665",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758665",
+                    meta: {
+                        versionId: "2572758667",
+                        lastUpdated: "2020-12-09T21:29:43.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Test anxiety, Anxiety (finding)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:29 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "48694002",
+                                display: "Anxiety (finding)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1049742",
+                                display: "Test anxiety",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Test anxiety",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T21:29:09.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627725",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627725",
+                    meta: {
+                        versionId: "2572627731",
+                        lastUpdated: "2020-11-02T16:07:02.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Test anxiety, Anxiety (finding)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov  2, 2020  3:58 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "48694002",
+                                display: "Anxiety (finding)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1049742",
+                                display: "Test anxiety",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Test anxiety",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-11-02T15:58:20.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572556315",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572556315",
+                    meta: {
+                        versionId: "2572556315",
+                        lastUpdated: "2020-09-12T01:35:37.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acute bronchitis, Acute bronchitis</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Sep 12, 2020  1:35 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97939554",
+                    },
+                    dateRecorded: "2020-09-12",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "J20",
+                                display: "Acute bronchitis",
+                                userSelected: true,
+                            },
+                        ],
+                        text: "Acute bronchitis",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-09-12T01:35:00.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105081",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105081",
+                    meta: {
+                        versionId: "73105081",
+                        lastUpdated: "2020-11-02T11:27:03.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105131",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105131",
+                    meta: {
+                        versionId: "73105131",
+                        lastUpdated: "2020-11-02T12:11:29.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105193",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105193",
+                    meta: {
+                        versionId: "73105193",
+                        lastUpdated: "2020-11-02T12:11:32.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105367",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105367",
+                    meta: {
+                        versionId: "73105367",
+                        lastUpdated: "2020-11-02T12:11:38.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105389",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105389",
+                    meta: {
+                        versionId: "73105389",
+                        lastUpdated: "2020-11-02T12:11:40.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105113",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105113",
+                    meta: {
+                        versionId: "73105113",
+                        lastUpdated: "2020-11-02T12:11:29.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105429",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105429",
+                    meta: {
+                        versionId: "73105429",
+                        lastUpdated: "2020-11-02T12:11:40.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105203",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105203",
+                    meta: {
+                        versionId: "73105203",
+                        lastUpdated: "2020-11-02T12:11:32.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105419",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105419",
+                    meta: {
+                        versionId: "73105419",
+                        lastUpdated: "2020-11-02T12:11:40.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105183",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105183",
+                    meta: {
+                        versionId: "73105183",
+                        lastUpdated: "2020-11-02T12:11:32.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105285",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105285",
+                    meta: {
+                        versionId: "73105285",
+                        lastUpdated: "2020-11-02T12:11:35.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105141",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105141",
+                    meta: {
+                        versionId: "73105141",
+                        lastUpdated: "2020-11-02T12:11:29.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105347",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105347",
+                    meta: {
+                        versionId: "73105347",
+                        lastUpdated: "2020-11-02T12:11:37.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105265",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105265",
+                    meta: {
+                        versionId: "73105265",
+                        lastUpdated: "2020-11-02T12:11:34.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105275",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105275",
+                    meta: {
+                        versionId: "73105275",
+                        lastUpdated: "2020-11-02T12:11:34.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105327",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105327",
+                    meta: {
+                        versionId: "73105327",
+                        lastUpdated: "2020-11-02T12:11:37.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627675",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627675",
+                    meta: {
+                        versionId: "2572627675",
+                        lastUpdated: "2020-11-02T12:11:36.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T12:11:35.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627701",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627701",
+                    meta: {
+                        versionId: "2572627701",
+                        lastUpdated: "2020-11-02T12:11:41.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T12:11:41.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627657",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627657",
+                    meta: {
+                        versionId: "2572627657",
+                        lastUpdated: "2020-11-02T12:11:31.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T12:11:31.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627695",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627695",
+                    meta: {
+                        versionId: "2572627695",
+                        lastUpdated: "2020-11-02T12:11:41.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T12:11:41.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627649",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627649",
+                    meta: {
+                        versionId: "2572627649",
+                        lastUpdated: "2020-11-02T12:11:30.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T12:11:30.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627705",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627705",
+                    meta: {
+                        versionId: "2572627705",
+                        lastUpdated: "2020-11-02T12:11:42.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T12:11:41.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627663",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627663",
+                    meta: {
+                        versionId: "2572627663",
+                        lastUpdated: "2020-11-02T12:11:33.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T12:11:33.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627687",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627687",
+                    meta: {
+                        versionId: "2572627687",
+                        lastUpdated: "2020-11-02T12:11:38.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T12:11:38.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627665",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627665",
+                    meta: {
+                        versionId: "2572627665",
+                        lastUpdated: "2020-11-02T12:11:33.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T12:11:33.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627637",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627637",
+                    meta: {
+                        versionId: "2572627637",
+                        lastUpdated: "2020-11-02T11:27:04.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 11:27 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T11:27:04.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627693",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627693",
+                    meta: {
+                        versionId: "2572627693",
+                        lastUpdated: "2020-11-02T12:11:39.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T12:11:39.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627653",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627653",
+                    meta: {
+                        versionId: "2572627653",
+                        lastUpdated: "2020-11-02T12:11:31.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T12:11:30.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627661",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627661",
+                    meta: {
+                        versionId: "2572627661",
+                        lastUpdated: "2020-11-02T12:11:33.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T12:11:33.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627681",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627681",
+                    meta: {
+                        versionId: "2572627681",
+                        lastUpdated: "2020-11-02T12:11:36.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T12:11:36.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627677",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627677",
+                    meta: {
+                        versionId: "2572627677",
+                        lastUpdated: "2020-11-02T12:11:36.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T12:11:36.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627689",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627689",
+                    meta: {
+                        versionId: "2572627689",
+                        lastUpdated: "2020-11-02T12:11:39.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Lupus anticoagulant syndrome, Lupus anticoagulant syndrome</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 12:11 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.62",
+                                display: "Lupus anticoagulant syndrome",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Lupus anticoagulant syndrome",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T12:11:38.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746521",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572746521",
+                    meta: {
+                        versionId: "2572746521",
+                        lastUpdated: "2020-11-27T14:44:10.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Traumatic pneumothorax, subsequent encounter, Traumatic pneumothorax (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020  2:44 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-27",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "90070003",
+                                display: "Traumatic pneumothorax (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "871643",
+                                display: "Traumatic pneumothorax, subsequent encounter",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "S27.0XXD",
+                                display: "Traumatic pneumothorax, subsequent encounter",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Traumatic pneumothorax, subsequent encounter",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-27T14:44:10.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73122639",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73122639",
+                    meta: {
+                        versionId: "73122651",
+                        lastUpdated: "2020-12-15T20:25:27.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Head ache, Head ache</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "45533",
+                                display: "Head ache",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "25064002",
+                                display: "Headache (finding)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Head ache",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    verificationStatus: "entered-in-error",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572599757",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572599757",
+                    meta: {
+                        versionId: "2572610559",
+                        lastUpdated: "2020-10-12T20:48:47.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Von Willebrand&apos;s disease, Von Willebrand&apos;s disease</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Oct  6, 2020  6:54 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-10-06",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "D68.0",
+                                display: "Von Willebrand's disease",
+                                userSelected: true,
+                            },
+                        ],
+                        text: "Von Willebrand's disease",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-10-06T18:54:31.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758675",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758675",
+                    meta: {
+                        versionId: "2572758681",
+                        lastUpdated: "2020-12-09T21:31:30.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Symptomatic HIV infection, Symptomatic HIV infection</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:30 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1712427",
+                                display: "Symptomatic HIV infection",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "81000119104",
+                                display: "Symptomatic human immunodeficiency virus infection (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Symptomatic HIV infection",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T21:30:04.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758643",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758643",
+                    meta: {
+                        versionId: "2572758653",
+                        lastUpdated: "2020-12-09T21:28:40.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Symptomatic HIV infection, Symptomatic HIV infection</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:27 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1712427",
+                                display: "Symptomatic HIV infection",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "81000119104",
+                                display: "Symptomatic human immunodeficiency virus infection (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Symptomatic HIV infection",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T21:27:33.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73119591",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73119591",
+                    meta: {
+                        versionId: "73120367",
+                        lastUpdated: "2020-12-09T21:35:16.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Acne vulgaris, Acne vulgaris</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "801",
+                                display: "Acne vulgaris",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "11381005",
+                                display: "Acne (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Acne vulgaris",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    verificationStatus: "entered-in-error",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751157",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572751157",
+                    meta: {
+                        versionId: "2572758641",
+                        lastUpdated: "2020-12-09T21:27:04.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne vulgaris, Acne vulgaris</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  3:12 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "801",
+                                display: "Acne vulgaris",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "11381005",
+                                display: "Acne (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Acne vulgaris",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T03:12:26.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73122603",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73122603",
+                    meta: {
+                        versionId: "73122603",
+                        lastUpdated: "2020-12-15T20:20:12.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Cirrhosis of liver, Cirrhosis of liver (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "19943007",
+                                display: "Cirrhosis of liver (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "48776",
+                                display: "Cirrhosis of liver",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Cirrhosis of liver",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631675",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572631675",
+                    meta: {
+                        versionId: "2572631675",
+                        lastUpdated: "2020-11-04T09:09:48.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-04",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "C81.9",
+                                display: "Hodgkin lymphoma, unspecified",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Hodgkin Disease",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "differential",
+                    onsetDateTime: "2020-11-04T09:09:48.000Z",
+                    notes: "From Isabel DDx Tool.",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631615",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572631615",
+                    meta: {
+                        versionId: "2572631615",
+                        lastUpdated: "2020-11-04T09:09:27.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-04",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "C81.9",
+                                display: "Hodgkin lymphoma, unspecified",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Hodgkin Disease",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "differential",
+                    onsetDateTime: "2020-11-04T09:09:26.000Z",
+                    notes: "From Isabel DDx Tool.",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631603",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572631603",
+                    meta: {
+                        versionId: "2572631603",
+                        lastUpdated: "2020-11-04T09:09:22.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-04",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "C81.9",
+                                display: "Hodgkin lymphoma, unspecified",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Hodgkin Disease",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "differential",
+                    onsetDateTime: "2020-11-04T09:09:22.000Z",
+                    notes: "From Isabel DDx Tool.",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631627",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572631627",
+                    meta: {
+                        versionId: "2572759099",
+                        lastUpdated: "2020-12-10T15:55:08.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-04",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "C81.9",
+                                display: "Hodgkin lymphoma, unspecified",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Hodgkin Disease",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-11-04T09:09:31.000Z",
+                    notes: "From Isabel DDx Tool.",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631663",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572631663",
+                    meta: {
+                        versionId: "2572631663",
+                        lastUpdated: "2020-11-04T09:09:43.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-04",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "C81.9",
+                                display: "Hodgkin lymphoma, unspecified",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Hodgkin Disease",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "differential",
+                    onsetDateTime: "2020-11-04T09:09:43.000Z",
+                    notes: "From Isabel DDx Tool.",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631651",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572631651",
+                    meta: {
+                        versionId: "2572631651",
+                        lastUpdated: "2020-11-04T09:09:39.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-04",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "C81.9",
+                                display: "Hodgkin lymphoma, unspecified",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Hodgkin Disease",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "differential",
+                    onsetDateTime: "2020-11-04T09:09:39.000Z",
+                    notes: "From Isabel DDx Tool.",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631687",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572631687",
+                    meta: {
+                        versionId: "2572631687",
+                        lastUpdated: "2020-11-04T09:09:52.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-04",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "C81.9",
+                                display: "Hodgkin lymphoma, unspecified",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Hodgkin Disease",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "differential",
+                    onsetDateTime: "2020-11-04T09:09:52.000Z",
+                    notes: "From Isabel DDx Tool.",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631699",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572631699",
+                    meta: {
+                        versionId: "2572631699",
+                        lastUpdated: "2020-11-04T09:09:56.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-04",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "C81.9",
+                                display: "Hodgkin lymphoma, unspecified",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Hodgkin Disease",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "differential",
+                    onsetDateTime: "2020-11-04T09:09:56.000Z",
+                    notes: "From Isabel DDx Tool.",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631639",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572631639",
+                    meta: {
+                        versionId: "2572631639",
+                        lastUpdated: "2020-11-04T09:09:35.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Hodgkin Disease, Hodgkin lymphoma, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Differential</p><p><b>Onset</b>: Nov  4, 2020  9:09 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-04",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "C81.9",
+                                display: "Hodgkin lymphoma, unspecified",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Hodgkin Disease",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "differential",
+                    onsetDateTime: "2020-11-04T09:09:35.000Z",
+                    notes: "From Isabel DDx Tool.",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73114487",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73114487",
+                    meta: {
+                        versionId: "73120351",
+                        lastUpdated: "2020-12-09T21:35:15.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Influenza, Influenza</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 22, 2018</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-25",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "86569",
+                                display: "Influenza",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "6142004",
+                                display: "Influenza (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Influenza",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2018-11-22",
+                    abatementBoolean: false,
+                    notes: "Nov 25, 2020  5:18 P.M. UTC - PWIMO, Physician - Hospitalist - Valerie's influenza test",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572587715",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572587715",
+                    meta: {
+                        versionId: "2572610563",
+                        lastUpdated: "2020-10-12T20:48:47.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Paroxysmal atrial fibrillation, Paroxysmal atrial fibrillation</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Sep 30, 2020  2:40 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-09-30",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "I48.0",
+                                display: "Paroxysmal atrial fibrillation",
+                                userSelected: true,
+                            },
+                        ],
+                        text: "Paroxysmal atrial fibrillation",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-09-30T14:40:37.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572588277",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572588277",
+                    meta: {
+                        versionId: "2572618553",
+                        lastUpdated: "2020-10-19T14:37:34.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Paroxysmal atrial fibrillation, Paroxysmal atrial fibrillation</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Sep 28, 2020 10:24 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97939533",
+                    },
+                    dateRecorded: "2020-10-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "I48.0",
+                                display: "Paroxysmal atrial fibrillation",
+                                userSelected: true,
+                            },
+                        ],
+                        text: "Paroxysmal atrial fibrillation",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-09-28T22:24:44.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572610569",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572610569",
+                    meta: {
+                        versionId: "2572643997",
+                        lastUpdated: "2020-11-11T15:57:47.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Paroxysmal atrial fibrillation, Paroxysmal atrial fibrillation</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Oct 12, 2020  8:46 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-10-12",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "I48.0",
+                                display: "Paroxysmal atrial fibrillation",
+                                userSelected: true,
+                            },
+                        ],
+                        text: "Paroxysmal atrial fibrillation",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-10-12T20:46:28.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572618549",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572618549",
+                    meta: {
+                        versionId: "2572618549",
+                        lastUpdated: "2020-10-19T14:37:34.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Gonococcal sepsis, Gonococcal sepsis</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Oct 19, 2020  2:33 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97939533",
+                    },
+                    dateRecorded: "2020-10-19",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "A54.86",
+                                display: "Gonococcal sepsis",
+                                userSelected: true,
+                            },
+                        ],
+                        text: "Gonococcal sepsis",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-10-19T14:33:46.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746501",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572746501",
+                    meta: {
+                        versionId: "2572746501",
+                        lastUpdated: "2020-11-27T12:21:06.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Mild persistent asthma with status asthmaticus, Acute severe exacerbation of mild persistent asthma (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020 12:21 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-27",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "707981009",
+                                display: "Acute severe exacerbation of mild persistent asthma (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1585319",
+                                display: "Mild persistent asthma with status asthmaticus",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "J45.32",
+                                display: "Mild persistent asthma with status asthmaticus",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Mild persistent asthma with status asthmaticus",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-27T12:21:06.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105067",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105067",
+                    meta: {
+                        versionId: "73105067",
+                        lastUpdated: "2020-11-02T11:22:16.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Heart failure, unspecified, Heart failure, unspecified</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "I50.9",
+                                display: "Heart failure, unspecified",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Heart failure, unspecified",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627633",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627633",
+                    meta: {
+                        versionId: "2572627633",
+                        lastUpdated: "2020-11-02T11:22:18.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Heart failure, unspecified, Heart failure, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 11:22 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "I50.9",
+                                display: "Heart failure, unspecified",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Heart failure, unspecified",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T11:22:18.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572742005",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572742005",
+                    meta: {
+                        versionId: "2572742005",
+                        lastUpdated: "2020-11-19T18:03:12.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Nose drop addiction, Nose drop addiction</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 19, 2020  6:03 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-19",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "300715",
+                                display: "Nose drop addiction",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "191816009",
+                                display: "Drug dependence (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "F19.20",
+                                display: "Other psychoactive substance dependence, uncomplicated",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Nose drop addiction",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-19T18:03:12.000Z",
                 },
             },
             {
@@ -16862,67 +18344,6 @@ const response = {
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572742005",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572742005",
-                    meta: {
-                        versionId: "2572742005",
-                        lastUpdated: "2020-11-19T18:03:12.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Nose drop addiction, Nose drop addiction</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 19, 2020  6:03 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-19",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "300715",
-                                display: "Nose drop addiction",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "191816009",
-                                display: "Drug dependence (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F19.20",
-                                display: "Other psychoactive substance dependence, uncomplicated",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Nose drop addiction",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-19T18:03:12.000Z",
-                },
-            },
-            {
-                fullUrl:
                     "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746527",
                 resource: {
                     resourceType: "Condition",
@@ -17433,111 +18854,6 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73114679",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73114679",
-                    meta: {
-                        versionId: "73114679",
-                        lastUpdated: "2020-11-27T11:54:52.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Chest injury, Chest injury (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-27",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "262525000",
-                                display: "Chest injury (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "55631",
-                                display: "Chest injury",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Chest injury",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759061",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572759061",
-                    meta: {
-                        versionId: "2572759063",
-                        lastUpdated: "2020-12-10T15:30:57.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Asymptomatic HIV infection, Asymptomatic HIV infection</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:30 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "555209",
-                                display: "Asymptomatic HIV infection",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "91947003",
-                                display: "Asymptomatic human immunodeficiency virus infection (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Asymptomatic HIV infection",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T15:30:48.000Z",
-                },
-            },
-            {
                 fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73116189",
                 resource: {
                     resourceType: "Condition",
@@ -17650,6 +18966,60 @@ const response = {
             },
             {
                 fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759061",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572759061",
+                    meta: {
+                        versionId: "2572759063",
+                        lastUpdated: "2020-12-10T15:30:57.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Asymptomatic HIV infection, Asymptomatic HIV infection</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:30 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "555209",
+                                display: "Asymptomatic HIV infection",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "91947003",
+                                display: "Asymptomatic human immunodeficiency virus infection (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Asymptomatic HIV infection",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T15:30:48.000Z",
+                },
+            },
+            {
+                fullUrl:
                     "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746509",
                 resource: {
                     resourceType: "Condition",
@@ -17710,40 +19080,40 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73114487",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73121319",
                 resource: {
                     resourceType: "Condition",
-                    id: "p73114487",
+                    id: "p73121319",
                     meta: {
-                        versionId: "73120351",
-                        lastUpdated: "2020-12-09T21:35:15.000Z",
+                        versionId: "73121333",
+                        lastUpdated: "2020-12-10T14:00:01.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Influenza, Influenza</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 22, 2018</p><p><b>Resolved</b>: False</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Diabetes insipidus, Diabetes insipidus</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
                         display: "SMART, VALERIE",
                     },
-                    dateRecorded: "2020-11-25",
+                    dateRecorded: "2020-12-10",
                     code: {
                         coding: [
                             {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "86569",
-                                display: "Influenza",
+                                code: "41886",
+                                display: "Diabetes insipidus",
                                 userSelected: false,
                             },
                             {
                                 system: "http://snomed.info/sct",
-                                code: "6142004",
-                                display: "Influenza (disorder)",
+                                code: "15771004",
+                                display: "Diabetes insipidus (disorder)",
                                 userSelected: false,
                             },
                         ],
-                        text: "Influenza",
+                        text: "Diabetes insipidus",
                     },
                     category: {
                         coding: [
@@ -17756,95 +19126,54 @@ const response = {
                         text: "Problem",
                     },
                     verificationStatus: "entered-in-error",
-                    onsetDateTime: "2018-11-22",
-                    abatementBoolean: false,
-                    notes: "Nov 25, 2020  5:18 P.M. UTC - PWIMO, Physician - Hospitalist - Valerie's influenza test",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73033649",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73033649",
-                    meta: {
-                        versionId: "73033649",
-                        lastUpdated: "2019-12-26T20:45:07.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Asthma, Asthma (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2019-12-26",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "195967001",
-                                display: "Asthma (disorder)",
-                                userSelected: true,
-                            },
-                        ],
-                        text: "Asthma",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
                     abatementBoolean: false,
                 },
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572089653",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759081",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572089653",
+                    id: "d2572759081",
                     meta: {
-                        versionId: "2572089653",
-                        lastUpdated: "2019-12-26T20:44:57.000Z",
+                        versionId: "2572759089",
+                        lastUpdated: "2020-12-10T15:38:22.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Asthma, Asthma (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec 26, 2019  6:00 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:38 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
                         display: "SMART, VALERIE",
                     },
                     encounter: {
-                        reference: "Encounter/97939533",
+                        reference: "Encounter/97953486",
                     },
-                    dateRecorded: "2019-12-26",
+                    dateRecorded: "2020-12-10",
                     code: {
                         coding: [
                             {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "41886",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                            {
                                 system: "http://snomed.info/sct",
-                                code: "195967001",
-                                display: "Asthma (disorder)",
-                                userSelected: true,
+                                code: "15771004",
+                                display: "Diabetes insipidus (disorder)",
+                                userSelected: false,
                             },
                             {
                                 system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "J45.998",
-                                display: "Other asthma",
+                                code: "E23.2",
+                                display: "Diabetes insipidus",
                                 userSelected: false,
                             },
                         ],
-                        text: "Asthma",
+                        text: "Diabetes insipidus",
                     },
                     category: {
                         coding: [
@@ -17856,9 +19185,974 @@ const response = {
                         ],
                         text: "Diagnosis",
                     },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2019-12-26T18:00:00.000Z",
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T15:38:02.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751399",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572751399",
+                    meta: {
+                        versionId: "2572758767",
+                        lastUpdated: "2020-12-10T00:50:20.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  3:17 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "41886",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15771004",
+                                display: "Diabetes insipidus (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "E23.2",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Diabetes insipidus",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T15:17:58.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758779",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758779",
+                    meta: {
+                        versionId: "2572758785",
+                        lastUpdated: "2020-12-10T00:51:19.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "41886",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15771004",
+                                display: "Diabetes insipidus (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "E23.2",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Diabetes insipidus",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T00:51:03.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758791",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758791",
+                    meta: {
+                        versionId: "2572758801",
+                        lastUpdated: "2020-12-10T00:52:06.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "41886",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15771004",
+                                display: "Diabetes insipidus (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "E23.2",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Diabetes insipidus",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T00:51:45.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758699",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758699",
+                    meta: {
+                        versionId: "2572762655",
+                        lastUpdated: "2020-12-15T20:11:41.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:34 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "41886",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15771004",
+                                display: "Diabetes insipidus (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "E23.2",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Diabetes insipidus",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T21:34:30.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762781",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572762781",
+                    meta: {
+                        versionId: "2572762795",
+                        lastUpdated: "2020-12-15T21:08:44.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  9:07 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "41886",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15771004",
+                                display: "Diabetes insipidus (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "E23.2",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Diabetes insipidus",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-15T21:07:50.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759105",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572759105",
+                    meta: {
+                        versionId: "2572762705",
+                        lastUpdated: "2020-12-15T20:45:50.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:57 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "41886",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15771004",
+                                display: "Diabetes insipidus (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "E23.2",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Diabetes insipidus",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T15:57:46.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762741",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572762741",
+                    meta: {
+                        versionId: "2572762769",
+                        lastUpdated: "2020-12-15T21:04:46.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  9:03 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "41886",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15771004",
+                                display: "Diabetes insipidus (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "E23.2",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Diabetes insipidus",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-15T21:03:11.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759041",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572759041",
+                    meta: {
+                        versionId: "2572759053",
+                        lastUpdated: "2020-12-10T13:59:07.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  1:58 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "41886",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "15771004",
+                                display: "Diabetes insipidus (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "E23.2",
+                                display: "Diabetes insipidus",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Diabetes insipidus",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T13:58:44.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758781",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758781",
+                    meta: {
+                        versionId: "2572758789",
+                        lastUpdated: "2020-12-10T00:51:33.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "83992",
+                                display: "Unspecified optic atrophy",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "76976005",
+                                display: "Optic atrophy (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified optic atrophy",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T00:51:03.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759113",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572759113",
+                    meta: {
+                        versionId: "2572762701",
+                        lastUpdated: "2020-12-15T20:41:10.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:57 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "83992",
+                                display: "Unspecified optic atrophy",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "76976005",
+                                display: "Optic atrophy (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified optic atrophy",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T15:57:47.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762749",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572762749",
+                    meta: {
+                        versionId: "2572762775",
+                        lastUpdated: "2020-12-15T21:05:00.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  9:03 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "83992",
+                                display: "Unspecified optic atrophy",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "76976005",
+                                display: "Optic atrophy (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified optic atrophy",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-15T21:03:11.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759079",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572759079",
+                    meta: {
+                        versionId: "2572759091",
+                        lastUpdated: "2020-12-10T15:38:32.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:38 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "83992",
+                                display: "Unspecified optic atrophy",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "76976005",
+                                display: "Optic atrophy (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified optic atrophy",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T15:38:02.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759047",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572759047",
+                    meta: {
+                        versionId: "2572759057",
+                        lastUpdated: "2020-12-10T13:59:22.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  1:58 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "83992",
+                                display: "Unspecified optic atrophy",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "76976005",
+                                display: "Optic atrophy (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified optic atrophy",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T13:58:45.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758707",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758707",
+                    meta: {
+                        versionId: "2572762661",
+                        lastUpdated: "2020-12-15T20:11:58.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:34 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "83992",
+                                display: "Unspecified optic atrophy",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "76976005",
+                                display: "Optic atrophy (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified optic atrophy",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T21:34:31.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762787",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572762787",
+                    meta: {
+                        versionId: "2572762797",
+                        lastUpdated: "2020-12-15T21:08:59.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  9:07 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "83992",
+                                display: "Unspecified optic atrophy",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "76976005",
+                                display: "Optic atrophy (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified optic atrophy",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-15T21:07:50.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751395",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572751395",
+                    meta: {
+                        versionId: "2572758773",
+                        lastUpdated: "2020-12-10T00:50:54.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  3:17 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "83992",
+                                display: "Unspecified optic atrophy",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "76976005",
+                                display: "Optic atrophy (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified optic atrophy",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T15:17:58.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758793",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758793",
+                    meta: {
+                        versionId: "2572758807",
+                        lastUpdated: "2020-12-10T00:52:33.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-12-10",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "83992",
+                                display: "Unspecified optic atrophy",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "76976005",
+                                display: "Optic atrophy (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Unspecified optic atrophy",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-10T00:51:45.000Z",
                 },
             },
             {
@@ -17977,40 +20271,34 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73114517",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73098283",
                 resource: {
                     resourceType: "Condition",
-                    id: "p73114517",
+                    id: "p73098283",
                     meta: {
-                        versionId: "73120317",
-                        lastUpdated: "2020-12-09T21:32:43.000Z",
+                        versionId: "73120371",
+                        lastUpdated: "2020-12-09T21:35:42.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Type 1 diabetes mellitus with hypoglycemic coma, Type 1 diabetes mellitus with hypoglycemic coma</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Chronic atrial fibrillation, Chronic atrial fibrillation (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec  3, 2014</p><p><b>Resolved</b>: False</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
                         display: "SMART, VALERIE",
                     },
-                    dateRecorded: "2020-11-25",
+                    dateRecorded: "2020-09-29",
                     code: {
                         coding: [
                             {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "500140",
-                                display: "Type 1 diabetes mellitus with hypoglycemic coma",
-                                userSelected: false,
-                            },
-                            {
                                 system: "http://snomed.info/sct",
-                                code: "46635009",
-                                display: "Diabetes mellitus type 1 (disorder)",
-                                userSelected: false,
+                                code: "426749004",
+                                display: "Chronic atrial fibrillation (disorder)",
+                                userSelected: true,
                             },
                         ],
-                        text: "Type 1 diabetes mellitus with hypoglycemic coma",
+                        text: "Chronic atrial fibrillation",
                     },
                     category: {
                         coding: [
@@ -18022,78 +20310,26 @@ const response = {
                         ],
                         text: "Problem",
                     },
-                    verificationStatus: "entered-in-error",
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2014-12-03",
                     abatementBoolean: false,
                 },
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758687",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572586797",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572758687",
+                    id: "d2572586797",
                     meta: {
-                        versionId: "2572758689",
-                        lastUpdated: "2020-12-09T21:32:25.000Z",
+                        versionId: "2572586799",
+                        lastUpdated: "2020-09-29T15:03:05.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 1 diabetes mellitus with hypoglycemic coma, Type 1 diabetes mellitus with hypoglycemic coma</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:32 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "500140",
-                                display: "Type 1 diabetes mellitus with hypoglycemic coma",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "46635009",
-                                display: "Diabetes mellitus type 1 (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Type 1 diabetes mellitus with hypoglycemic coma",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-09T21:32:20.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572743843",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572743843",
-                    meta: {
-                        versionId: "2572743845",
-                        lastUpdated: "2020-11-25T17:23:19.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 1 diabetes mellitus with hypoglycemic coma, Type 1 diabetes mellitus with hypoglycemic coma</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 25, 2020  5:22 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Chronic atrial fibrillation, Chronic atrial fibrillation (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Sep 29, 2020  5:00 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
@@ -18102,137 +20338,296 @@ const response = {
                     encounter: {
                         reference: "Encounter/97953486",
                     },
-                    dateRecorded: "2020-11-25",
+                    dateRecorded: "2020-09-29",
                     code: {
                         coding: [
                             {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "500140",
-                                display: "Type 1 diabetes mellitus with hypoglycemic coma",
-                                userSelected: false,
-                            },
-                            {
                                 system: "http://snomed.info/sct",
-                                code: "46635009",
-                                display: "Diabetes mellitus type 1 (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Type 1 diabetes mellitus with hypoglycemic coma",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-11-25T17:22:54.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572743839",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572743839",
-                    meta: {
-                        versionId: "2572743841",
-                        lastUpdated: "2020-11-25T17:21:26.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 1 diabetes mellitus with hypoglycemic coma, Type 1 diabetes mellitus with hypoglycemic coma</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 25, 2020  5:20 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-25",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "500140",
-                                display: "Type 1 diabetes mellitus with hypoglycemic coma",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "46635009",
-                                display: "Diabetes mellitus type 1 (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Type 1 diabetes mellitus with hypoglycemic coma",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-11-25T17:20:48.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746487",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572746487",
-                    meta: {
-                        versionId: "2572746487",
-                        lastUpdated: "2020-11-27T11:22:56.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 1 diabetes mellitus with hypoglycemic coma, Type 1 diabetes mellitus with hypoglycemic coma</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020 11:22 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-27",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "500140",
-                                display: "Type 1 diabetes mellitus with hypoglycemic coma",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "46635009",
-                                display: "Diabetes mellitus type 1 (disorder)",
-                                userSelected: false,
+                                code: "426749004",
+                                display: "Chronic atrial fibrillation (disorder)",
+                                userSelected: true,
                             },
                             {
                                 system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "E10.641",
-                                display: "Type 1 diabetes mellitus with hypoglycemia with coma",
+                                code: "I48.20",
+                                display: "Chronic atrial fibrillation, unspecified",
                                 userSelected: false,
                             },
                         ],
-                        text: "Type 1 diabetes mellitus with hypoglycemic coma",
+                        text: "Chronic atrial fibrillation",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-09-29T17:00:00.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73104961",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73104961",
+                    meta: {
+                        versionId: "73104961",
+                        lastUpdated: "2020-11-02T07:22:32.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "F25.8",
+                                display: "Other schizoaffective disorders",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Other schizoaffective disorders",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73104975",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73104975",
+                    meta: {
+                        versionId: "73104975",
+                        lastUpdated: "2020-11-02T08:53:34.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "F25.8",
+                                display: "Other schizoaffective disorders",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Other schizoaffective disorders",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105013",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105013",
+                    meta: {
+                        versionId: "73105013",
+                        lastUpdated: "2020-11-02T09:25:32.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "F25.8",
+                                display: "Other schizoaffective disorders",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Other schizoaffective disorders",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73104987",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73104987",
+                    meta: {
+                        versionId: "73104987",
+                        lastUpdated: "2020-11-02T09:00:06.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "F25.8",
+                                display: "Other schizoaffective disorders",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Other schizoaffective disorders",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105001",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73105001",
+                    meta: {
+                        versionId: "73105001",
+                        lastUpdated: "2020-11-02T09:11:20.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "F25.8",
+                                display: "Other schizoaffective disorders",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Other schizoaffective disorders",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "resolved",
+                    verificationStatus: "confirmed",
+                    abatementDateTime: "2020-11-02",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627581",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627581",
+                    meta: {
+                        versionId: "2572627581",
+                        lastUpdated: "2020-11-02T08:53:36.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020  8:53 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "F25.8",
+                                display: "Other schizoaffective disorders",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Other schizoaffective disorders",
                     },
                     category: {
                         coding: [
@@ -18246,54 +20641,42 @@ const response = {
                     },
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-27T11:22:56.000Z",
+                    onsetDateTime: "2020-11-02T08:53:36.000Z",
                 },
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746523",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627583",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572746523",
+                    id: "d2572627583",
                     meta: {
-                        versionId: "2572746523",
-                        lastUpdated: "2020-11-27T14:45:45.000Z",
+                        versionId: "2572627583",
+                        lastUpdated: "2020-11-02T09:00:08.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acute pain of right knee, Knee pain (finding)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020  2:45 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020  9:00 A.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
                         display: "SMART, VALERIE",
                     },
                     encounter: {
-                        reference: "Encounter/97953486",
+                        reference: "Encounter/97954469",
                     },
-                    dateRecorded: "2020-11-27",
+                    dateRecorded: "2020-11-02",
                     code: {
                         coding: [
                             {
-                                system: "http://snomed.info/sct",
-                                code: "30989003",
-                                display: "Knee pain (finding)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "41293448",
-                                display: "Acute pain of right knee",
-                                userSelected: false,
-                            },
-                            {
                                 system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "M25.561",
-                                display: "Pain in right knee",
+                                code: "F25.8",
+                                display: "Other schizoaffective disorders",
                                 userSelected: false,
                             },
                         ],
-                        text: "Acute pain of right knee",
+                        text: "Other schizoaffective disorders",
                     },
                     category: {
                         coding: [
@@ -18307,7 +20690,254 @@ const response = {
                     },
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-27T14:45:44.000Z",
+                    onsetDateTime: "2020-11-02T09:00:07.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627577",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627577",
+                    meta: {
+                        versionId: "2572627577",
+                        lastUpdated: "2020-11-02T07:22:35.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020  7:22 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "F25.8",
+                                display: "Other schizoaffective disorders",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Other schizoaffective disorders",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T07:22:34.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627587",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627587",
+                    meta: {
+                        versionId: "2572627587",
+                        lastUpdated: "2020-11-02T09:11:21.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020  9:11 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "F25.8",
+                                display: "Other schizoaffective disorders",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Other schizoaffective disorders",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T09:11:21.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627589",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572627589",
+                    meta: {
+                        versionId: "2572627589",
+                        lastUpdated: "2020-11-02T09:25:34.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020  9:25 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954469",
+                    },
+                    dateRecorded: "2020-11-02",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "F25.8",
+                                display: "Other schizoaffective disorders",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Other schizoaffective disorders",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-02T09:25:34.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73033649",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73033649",
+                    meta: {
+                        versionId: "73033649",
+                        lastUpdated: "2019-12-26T20:45:07.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Asthma, Asthma (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2019-12-26",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "195967001",
+                                display: "Asthma (disorder)",
+                                userSelected: true,
+                            },
+                        ],
+                        text: "Asthma",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572089653",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572089653",
+                    meta: {
+                        versionId: "2572089653",
+                        lastUpdated: "2019-12-26T20:44:57.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Asthma, Asthma (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec 26, 2019  6:00 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97939533",
+                    },
+                    dateRecorded: "2019-12-26",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "195967001",
+                                display: "Asthma (disorder)",
+                                userSelected: true,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "J45.998",
+                                display: "Other asthma",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Asthma",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2019-12-26T18:00:00.000Z",
                 },
             },
             {
@@ -18747,40 +21377,40 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73108529",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73115401",
                 resource: {
                     resourceType: "Condition",
-                    id: "p73108529",
+                    id: "p73115401",
                     meta: {
-                        versionId: "73108529",
-                        lastUpdated: "2020-11-13T22:27:47.000Z",
+                        versionId: "73115401",
+                        lastUpdated: "2020-11-30T12:46:46.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Crohn disease, Crohn disease</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Intercostal pain, Pain of intercostal space</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
                         display: "SMART, VALERIE",
                     },
-                    dateRecorded: "2020-11-13",
+                    dateRecorded: "2020-11-30",
                     code: {
                         coding: [
                             {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "41268",
-                                display: "Crohn disease",
+                                system: "http://snomed.info/sct",
+                                code: "735940001",
+                                display: "Pain of intercostal space",
                                 userSelected: false,
                             },
                             {
-                                system: "http://snomed.info/sct",
-                                code: "34000006",
-                                display: "Crohn's disease (disorder)",
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1076378",
+                                display: "Intercostal pain",
                                 userSelected: false,
                             },
                         ],
-                        text: "Crohn disease",
+                        text: "Intercostal pain",
                     },
                     category: {
                         coding: [
@@ -18795,6 +21425,60 @@ const response = {
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
                     abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747173",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572747173",
+                    meta: {
+                        versionId: "2572762717",
+                        lastUpdated: "2020-12-15T20:46:06.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Intercostal pain, Pain of intercostal space</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 30, 2020 12:46 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-30",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "735940001",
+                                display: "Pain of intercostal space",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1076378",
+                                display: "Intercostal pain",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Intercostal pain",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-11-30T12:46:47.000Z",
                 },
             },
             {
@@ -21049,18 +23733,18 @@ const response = {
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746515",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746503",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572746515",
+                    id: "d2572746503",
                     meta: {
-                        versionId: "2572746515",
-                        lastUpdated: "2020-11-27T14:39:58.000Z",
+                        versionId: "2572746503",
+                        lastUpdated: "2020-11-27T12:23:04.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Postprocedural pneumothorax, Postprocedural pneumothorax</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020  2:39 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Moderate persistent asthma with status asthmaticus, Acute severe exacerbation of moderate persistent asthma (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020 12:23 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
@@ -21073,25 +23757,25 @@ const response = {
                     code: {
                         coding: [
                             {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1811314",
-                                display: "Postprocedural pneumothorax",
+                                system: "http://snomed.info/sct",
+                                code: "707980005",
+                                display: "Acute severe exacerbation of moderate persistent asthma (disorder)",
                                 userSelected: false,
                             },
                             {
-                                system: "http://snomed.info/sct",
-                                code: "196187007",
-                                display: "Postprocedural respiratory disorders (disorder)",
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "746098",
+                                display: "Moderate persistent asthma with status asthmaticus",
                                 userSelected: false,
                             },
                             {
                                 system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "J95.811",
-                                display: "Postprocedural pneumothorax",
+                                code: "J45.42",
+                                display: "Moderate persistent asthma with status asthmaticus",
                                 userSelected: false,
                             },
                         ],
-                        text: "Postprocedural pneumothorax",
+                        text: "Moderate persistent asthma with status asthmaticus",
                     },
                     category: {
                         coding: [
@@ -21105,7 +23789,242 @@ const response = {
                     },
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-27T14:39:58.000Z",
+                    onsetDateTime: "2020-11-27T12:23:04.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572740577",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572740577",
+                    meta: {
+                        versionId: "2572740579",
+                        lastUpdated: "2020-11-17T21:40:30.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Knee pain with avascular necrosis determined by x-ray, Knee pain with avascular necrosis determined by x-ray</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 17, 2020  9:40 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-17",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1493732052",
+                                display: "Knee pain with avascular necrosis determined by x-ray",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "30989003",
+                                display: "Knee pain (finding)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "M87.88",
+                                display: "Other osteonecrosis, other site",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Knee pain with avascular necrosis determined by x-ray",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-11-17T21:40:01.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572741795",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572741795",
+                    meta: {
+                        versionId: "2572741795",
+                        lastUpdated: "2020-11-19T05:05:02.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Knee pain with avascular necrosis determined by x-ray, Knee pain with avascular necrosis determined by x-ray</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 19, 2020  5:05 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-19",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1493732052",
+                                display: "Knee pain with avascular necrosis determined by x-ray",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "30989003",
+                                display: "Knee pain (finding)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "M87.88",
+                                display: "Other osteonecrosis, other site",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Knee pain with avascular necrosis determined by x-ray",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-19T05:05:02.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572739707",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572739707",
+                    meta: {
+                        versionId: "2572748301",
+                        lastUpdated: "2020-12-03T20:58:49.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Knee pain with avascular necrosis determined by x-ray, Knee pain with avascular necrosis determined by x-ray</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 17, 2020  3:22 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-11-17",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1493732052",
+                                display: "Knee pain with avascular necrosis determined by x-ray",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "30989003",
+                                display: "Knee pain (finding)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "M87.88",
+                                display: "Other osteonecrosis, other site",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Knee pain with avascular necrosis determined by x-ray",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-11-17T15:22:12.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572747165",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572747165",
+                    meta: {
+                        versionId: "2572762713",
+                        lastUpdated: "2020-12-15T20:46:03.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acute kidney failure with medullary necrosis, Acute kidney failure with medullary necrosis</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 30, 2020 12:45 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-30",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "1004293",
+                                display: "Acute kidney failure with medullary necrosis",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "298015003",
+                                display: "Acute renal papillary necrosis with renal failure (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Acute kidney failure with medullary necrosis",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-11-30T12:45:07.000Z",
                 },
             },
             {
@@ -21171,18 +24090,18 @@ const response = {
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758781",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572741779",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572758781",
+                    id: "d2572741779",
                     meta: {
-                        versionId: "2572758789",
-                        lastUpdated: "2020-12-10T00:51:33.000Z",
+                        versionId: "2572741779",
+                        lastUpdated: "2020-11-18T22:29:55.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne cheloidalis, Acne cheloidalis</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 18, 2020 10:29 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
@@ -21191,137 +24110,29 @@ const response = {
                     encounter: {
                         reference: "Encounter/97953486",
                     },
-                    dateRecorded: "2020-12-10",
+                    dateRecorded: "2020-11-18",
                     code: {
                         coding: [
                             {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "83992",
-                                display: "Unspecified optic atrophy",
+                                code: "319057",
+                                display: "Acne cheloidalis",
                                 userSelected: false,
                             },
                             {
                                 system: "http://snomed.info/sct",
-                                code: "76976005",
-                                display: "Optic atrophy (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Unspecified optic atrophy",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T00:51:03.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759079",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572759079",
-                    meta: {
-                        versionId: "2572759091",
-                        lastUpdated: "2020-12-10T15:38:32.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:38 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "83992",
-                                display: "Unspecified optic atrophy",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "76976005",
-                                display: "Optic atrophy (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Unspecified optic atrophy",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T15:38:02.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758707",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572758707",
-                    meta: {
-                        versionId: "2572758707",
-                        lastUpdated: "2020-12-09T21:34:31.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec  9, 2020  9:34 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "83992",
-                                display: "Unspecified optic atrophy",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "76976005",
-                                display: "Optic atrophy (disorder)",
+                                code: "238742005",
+                                display: "Acne keloidalis (disorder)",
                                 userSelected: false,
                             },
                             {
                                 system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "H47.20",
-                                display: "Unspecified optic atrophy",
+                                code: "L73.0",
+                                display: "Acne keloid",
                                 userSelected: false,
                             },
                         ],
-                        text: "Unspecified optic atrophy",
+                        text: "Acne cheloidalis",
                     },
                     category: {
                         coding: [
@@ -21335,230 +24146,7 @@ const response = {
                     },
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
-                    onsetDateTime: "2020-12-09T21:34:31.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759047",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572759047",
-                    meta: {
-                        versionId: "2572759057",
-                        lastUpdated: "2020-12-10T13:59:22.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  1:58 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "83992",
-                                display: "Unspecified optic atrophy",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "76976005",
-                                display: "Optic atrophy (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Unspecified optic atrophy",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T13:58:45.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751395",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572751395",
-                    meta: {
-                        versionId: "2572758773",
-                        lastUpdated: "2020-12-10T00:50:54.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  3:17 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "83992",
-                                display: "Unspecified optic atrophy",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "76976005",
-                                display: "Optic atrophy (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Unspecified optic atrophy",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-09T15:17:58.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758793",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572758793",
-                    meta: {
-                        versionId: "2572758807",
-                        lastUpdated: "2020-12-10T00:52:33.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "83992",
-                                display: "Unspecified optic atrophy",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "76976005",
-                                display: "Optic atrophy (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Unspecified optic atrophy",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T00:51:45.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759113",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572759113",
-                    meta: {
-                        versionId: "2572759113",
-                        lastUpdated: "2020-12-10T15:57:47.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified optic atrophy, Unspecified optic atrophy</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec 10, 2020  3:57 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "83992",
-                                display: "Unspecified optic atrophy",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "76976005",
-                                display: "Optic atrophy (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "H47.20",
-                                display: "Unspecified optic atrophy",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Unspecified optic atrophy",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-12-10T15:57:47.000Z",
+                    onsetDateTime: "2020-11-18T22:29:54.000Z",
                 },
             },
             {
@@ -21683,184 +24271,104 @@ const response = {
                 },
             },
             {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572740577",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73120253",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572740577",
+                    id: "p73120253",
                     meta: {
-                        versionId: "2572740579",
-                        lastUpdated: "2020-11-17T21:40:30.000Z",
+                        versionId: "73121295",
+                        lastUpdated: "2020-12-10T13:58:29.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Knee pain with avascular necrosis determined by x-ray, Knee pain (finding)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 17, 2020  9:40 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: HIV (human immunodeficiency virus infection), HIV (human immunodeficiency virus infection)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
                         display: "SMART, VALERIE",
                     },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-17",
+                    dateRecorded: "2020-12-09",
                     code: {
                         coding: [
                             {
-                                system: "http://snomed.info/sct",
-                                code: "30989003",
-                                display: "Knee pain (finding)",
-                                userSelected: false,
-                            },
-                            {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "1493732052",
-                                display: "Knee pain with avascular necrosis determined by x-ray",
+                                code: "326743",
+                                display: "HIV (human immunodeficiency virus infection)",
                                 userSelected: false,
                             },
                             {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "M87.88",
-                                display: "Other osteonecrosis, other site",
+                                system: "http://snomed.info/sct",
+                                code: "86406008",
+                                display: "Human immunodeficiency virus infection (disorder)",
                                 userSelected: false,
                             },
                         ],
-                        text: "Knee pain with avascular necrosis determined by x-ray",
+                        text: "HIV (human immunodeficiency virus infection)",
                     },
                     category: {
                         coding: [
                             {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
                             },
                         ],
-                        text: "Diagnosis",
+                        text: "Problem",
                     },
                     verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-11-17T21:40:01.000Z",
+                    abatementBoolean: false,
                 },
             },
             {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572741795",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73121365",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572741795",
+                    id: "p73121365",
                     meta: {
-                        versionId: "2572741795",
-                        lastUpdated: "2020-11-19T05:05:02.000Z",
+                        versionId: "73121365",
+                        lastUpdated: "2020-12-10T14:04:39.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Knee pain with avascular necrosis determined by x-ray, Knee pain (finding)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 19, 2020  5:05 A.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: HIV (human immunodeficiency virus infection), HIV (human immunodeficiency virus infection)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
                         display: "SMART, VALERIE",
                     },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-19",
+                    dateRecorded: "2020-12-10",
                     code: {
                         coding: [
                             {
-                                system: "http://snomed.info/sct",
-                                code: "30989003",
-                                display: "Knee pain (finding)",
-                                userSelected: false,
-                            },
-                            {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "1493732052",
-                                display: "Knee pain with avascular necrosis determined by x-ray",
+                                code: "326743",
+                                display: "HIV (human immunodeficiency virus infection)",
                                 userSelected: false,
                             },
                             {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "M87.88",
-                                display: "Other osteonecrosis, other site",
+                                system: "http://snomed.info/sct",
+                                code: "86406008",
+                                display: "Human immunodeficiency virus infection (disorder)",
                                 userSelected: false,
                             },
                         ],
-                        text: "Knee pain with avascular necrosis determined by x-ray",
+                        text: "HIV (human immunodeficiency virus infection)",
                     },
                     category: {
                         coding: [
                             {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
                             },
                         ],
-                        text: "Diagnosis",
+                        text: "Problem",
                     },
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-19T05:05:02.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572739707",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572739707",
-                    meta: {
-                        versionId: "2572748301",
-                        lastUpdated: "2020-12-03T20:58:49.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Knee pain with avascular necrosis determined by x-ray, Knee pain (finding)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 17, 2020  3:22 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-11-17",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "30989003",
-                                display: "Knee pain (finding)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1493732052",
-                                display: "Knee pain with avascular necrosis determined by x-ray",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "M87.88",
-                                display: "Other osteonecrosis, other site",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Knee pain with avascular necrosis determined by x-ray",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-11-17T15:22:12.000Z",
+                    abatementBoolean: false,
                 },
             },
             {
@@ -21973,40 +24481,152 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73121319",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73108529",
                 resource: {
                     resourceType: "Condition",
-                    id: "p73121319",
+                    id: "p73108529",
                     meta: {
-                        versionId: "73121333",
-                        lastUpdated: "2020-12-10T14:00:01.000Z",
+                        versionId: "73108529",
+                        lastUpdated: "2020-11-13T22:27:47.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Diabetes insipidus, Diabetes insipidus (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Crohn disease, Crohn disease</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
                         display: "SMART, VALERIE",
                     },
-                    dateRecorded: "2020-12-10",
+                    dateRecorded: "2020-11-13",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "41268",
+                                display: "Crohn disease",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "34000006",
+                                display: "Crohn's disease (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Crohn disease",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746517",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572746517",
+                    meta: {
+                        versionId: "2572746517",
+                        lastUpdated: "2020-11-27T14:40:52.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Primary spontaneous pneumothorax, Spontaneous pneumothorax (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020  2:40 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-27",
                     code: {
                         coding: [
                             {
                                 system: "http://snomed.info/sct",
-                                code: "15771004",
-                                display: "Diabetes insipidus (disorder)",
+                                code: "80423007",
+                                display: "Spontaneous pneumothorax (disorder)",
                                 userSelected: false,
                             },
                             {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "41886",
-                                display: "Diabetes insipidus",
+                                code: "1808895",
+                                display: "Primary spontaneous pneumothorax",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "J93.11",
+                                display: "Primary spontaneous pneumothorax",
                                 userSelected: false,
                             },
                         ],
-                        text: "Diabetes insipidus",
+                        text: "Primary spontaneous pneumothorax",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-27T14:40:52.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73108897",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73108897",
+                    meta: {
+                        versionId: "73119463",
+                        lastUpdated: "2020-12-08T20:54:48.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Acne agminata, Acne Agminata</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 14, 2020</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-17",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "30124179",
+                                display: "Acne Agminata",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "238752009",
+                                display: "Acne agminata (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Acne agminata",
                     },
                     category: {
                         coding: [
@@ -22019,23 +24639,24 @@ const response = {
                         text: "Problem",
                     },
                     verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-11-14",
                     abatementBoolean: false,
                 },
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758699",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572750409",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572758699",
+                    id: "d2572750409",
                     meta: {
-                        versionId: "2572758699",
-                        lastUpdated: "2020-12-09T21:34:30.000Z",
+                        versionId: "2572750411",
+                        lastUpdated: "2020-12-07T19:59:06.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec  9, 2020  9:34 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne agminata, Acne Agminata</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  7, 2020  7:57 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
@@ -22044,90 +24665,23 @@ const response = {
                     encounter: {
                         reference: "Encounter/97954777",
                     },
-                    dateRecorded: "2020-12-09",
+                    dateRecorded: "2020-12-07",
                     code: {
                         coding: [
                             {
-                                system: "http://snomed.info/sct",
-                                code: "15771004",
-                                display: "Diabetes insipidus (disorder)",
-                                userSelected: false,
-                            },
-                            {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "41886",
-                                display: "Diabetes insipidus",
+                                code: "30124179",
+                                display: "Acne Agminata",
                                 userSelected: false,
                             },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "E23.2",
-                                display: "Diabetes insipidus",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Diabetes insipidus",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-12-09T21:34:30.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758779",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572758779",
-                    meta: {
-                        versionId: "2572758785",
-                        lastUpdated: "2020-12-10T00:51:19.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
                             {
                                 system: "http://snomed.info/sct",
-                                code: "15771004",
-                                display: "Diabetes insipidus (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "41886",
-                                display: "Diabetes insipidus",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "E23.2",
-                                display: "Diabetes insipidus",
+                                code: "238752009",
+                                display: "Acne agminata (disorder)",
                                 userSelected: false,
                             },
                         ],
-                        text: "Diabetes insipidus",
+                        text: "Acne agminata",
                     },
                     category: {
                         coding: [
@@ -22140,23 +24694,23 @@ const response = {
                         text: "Diagnosis",
                     },
                     verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T00:51:03.000Z",
+                    onsetDateTime: "2020-12-07T19:57:21.000Z",
                 },
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758791",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572741315",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572758791",
+                    id: "d2572741315",
                     meta: {
-                        versionId: "2572758801",
-                        lastUpdated: "2020-12-10T00:52:06.000Z",
+                        versionId: "2572741315",
+                        lastUpdated: "2020-11-18T17:59:10.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne agminata, Acne Agminata</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 18, 2020  5:59 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
@@ -22165,269 +24719,29 @@ const response = {
                     encounter: {
                         reference: "Encounter/97953486",
                     },
-                    dateRecorded: "2020-12-10",
+                    dateRecorded: "2020-11-18",
                     code: {
                         coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "15771004",
-                                display: "Diabetes insipidus (disorder)",
-                                userSelected: false,
-                            },
                             {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "41886",
-                                display: "Diabetes insipidus",
+                                code: "30124179",
+                                display: "Acne Agminata",
                                 userSelected: false,
                             },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "E23.2",
-                                display: "Diabetes insipidus",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Diabetes insipidus",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T00:51:45.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751399",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572751399",
-                    meta: {
-                        versionId: "2572758767",
-                        lastUpdated: "2020-12-10T00:50:20.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  3:17 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
                             {
                                 system: "http://snomed.info/sct",
-                                code: "15771004",
-                                display: "Diabetes insipidus (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "41886",
-                                display: "Diabetes insipidus",
+                                code: "238752009",
+                                display: "Acne agminata (disorder)",
                                 userSelected: false,
                             },
                             {
                                 system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "E23.2",
-                                display: "Diabetes insipidus",
+                                code: "A18.4",
+                                display: "Tuberculosis of skin and subcutaneous tissue",
                                 userSelected: false,
                             },
                         ],
-                        text: "Diabetes insipidus",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-09T15:17:58.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759041",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572759041",
-                    meta: {
-                        versionId: "2572759053",
-                        lastUpdated: "2020-12-10T13:59:07.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  1:58 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "15771004",
-                                display: "Diabetes insipidus (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "41886",
-                                display: "Diabetes insipidus",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "E23.2",
-                                display: "Diabetes insipidus",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Diabetes insipidus",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T13:58:44.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759081",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572759081",
-                    meta: {
-                        versionId: "2572759089",
-                        lastUpdated: "2020-12-10T15:38:22.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:38 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "15771004",
-                                display: "Diabetes insipidus (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "41886",
-                                display: "Diabetes insipidus",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "E23.2",
-                                display: "Diabetes insipidus",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Diabetes insipidus",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T15:38:02.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759105",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572759105",
-                    meta: {
-                        versionId: "2572759105",
-                        lastUpdated: "2020-12-10T15:57:47.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes insipidus, Diabetes insipidus (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec 10, 2020  3:57 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "15771004",
-                                display: "Diabetes insipidus (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "41886",
-                                display: "Diabetes insipidus",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "E23.2",
-                                display: "Diabetes insipidus",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Diabetes insipidus",
+                        text: "Acne agminata",
                     },
                     category: {
                         coding: [
@@ -22441,477 +24755,7 @@ const response = {
                     },
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
-                    onsetDateTime: "2020-12-10T15:57:46.000Z",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105013",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105013",
-                    meta: {
-                        versionId: "73105013",
-                        lastUpdated: "2020-11-02T09:25:32.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F25.8",
-                                display: "Other schizoaffective disorders",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Other schizoaffective disorders",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73104961",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73104961",
-                    meta: {
-                        versionId: "73104961",
-                        lastUpdated: "2020-11-02T07:22:32.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F25.8",
-                                display: "Other schizoaffective disorders",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Other schizoaffective disorders",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73104987",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73104987",
-                    meta: {
-                        versionId: "73104987",
-                        lastUpdated: "2020-11-02T09:00:06.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F25.8",
-                                display: "Other schizoaffective disorders",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Other schizoaffective disorders",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73104975",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73104975",
-                    meta: {
-                        versionId: "73104975",
-                        lastUpdated: "2020-11-02T08:53:34.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F25.8",
-                                display: "Other schizoaffective disorders",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Other schizoaffective disorders",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105001",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105001",
-                    meta: {
-                        versionId: "73105001",
-                        lastUpdated: "2020-11-02T09:11:20.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F25.8",
-                                display: "Other schizoaffective disorders",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Other schizoaffective disorders",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627581",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627581",
-                    meta: {
-                        versionId: "2572627581",
-                        lastUpdated: "2020-11-02T08:53:36.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020  8:53 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F25.8",
-                                display: "Other schizoaffective disorders",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Other schizoaffective disorders",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T08:53:36.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627583",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627583",
-                    meta: {
-                        versionId: "2572627583",
-                        lastUpdated: "2020-11-02T09:00:08.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020  9:00 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F25.8",
-                                display: "Other schizoaffective disorders",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Other schizoaffective disorders",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T09:00:07.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627577",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627577",
-                    meta: {
-                        versionId: "2572627577",
-                        lastUpdated: "2020-11-02T07:22:35.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020  7:22 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F25.8",
-                                display: "Other schizoaffective disorders",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Other schizoaffective disorders",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T07:22:34.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627587",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627587",
-                    meta: {
-                        versionId: "2572627587",
-                        lastUpdated: "2020-11-02T09:11:21.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020  9:11 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F25.8",
-                                display: "Other schizoaffective disorders",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Other schizoaffective disorders",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T09:11:21.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627589",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627589",
-                    meta: {
-                        versionId: "2572627589",
-                        lastUpdated: "2020-11-02T09:25:34.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Other schizoaffective disorders, Other schizoaffective disorders</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020  9:25 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "F25.8",
-                                display: "Other schizoaffective disorders",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Other schizoaffective disorders",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T09:25:34.000Z",
+                    onsetDateTime: "2020-11-18T17:59:10.000Z",
                 },
             },
             {
@@ -23240,40 +25084,40 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73108897",
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73116175",
                 resource: {
                     resourceType: "Condition",
-                    id: "p73108897",
+                    id: "p73116175",
                     meta: {
-                        versionId: "73119463",
-                        lastUpdated: "2020-12-08T20:54:48.000Z",
+                        versionId: "73116175",
+                        lastUpdated: "2020-12-01T19:23:58.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Acne agminata, Acne Agminata</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 14, 2020</p><p><b>Resolved</b>: False</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Anomaly, spine, Anomaly, spine</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
                         display: "SMART, VALERIE",
                     },
-                    dateRecorded: "2020-11-17",
+                    dateRecorded: "2020-12-01",
                     code: {
                         coding: [
                             {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "30124179",
-                                display: "Acne Agminata",
+                                code: "310596",
+                                display: "Anomaly, spine",
                                 userSelected: false,
                             },
                             {
                                 system: "http://snomed.info/sct",
-                                code: "238752009",
-                                display: "Acne agminata (disorder)",
+                                code: "298380006",
+                                display: "Deformity of spine (finding)",
                                 userSelected: false,
                             },
                         ],
-                        text: "Acne agminata",
+                        text: "Anomaly, spine",
                     },
                     category: {
                         coding: [
@@ -23285,50 +25129,50 @@ const response = {
                         ],
                         text: "Problem",
                     },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-11-14",
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
                     abatementBoolean: false,
                 },
             },
             {
                 fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572750409",
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751405",
                 resource: {
                     resourceType: "Condition",
-                    id: "d2572750409",
+                    id: "d2572751405",
                     meta: {
-                        versionId: "2572750411",
-                        lastUpdated: "2020-12-07T19:59:06.000Z",
+                        versionId: "2572762711",
+                        lastUpdated: "2020-12-15T20:46:02.000Z",
                     },
                     text: {
                         status: "generated",
                         div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne agminata, Acne Agminata</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  7, 2020  7:57 P.M. UTC</p></div>",
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Anomaly, spine, Anomaly, spine</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  3:19 P.M. UTC</p></div>",
                     },
                     patient: {
                         reference: "Patient/12724071",
                         display: "SMART, VALERIE",
                     },
                     encounter: {
-                        reference: "Encounter/97954777",
+                        reference: "Encounter/97953486",
                     },
-                    dateRecorded: "2020-12-07",
+                    dateRecorded: "2020-12-09",
                     code: {
                         coding: [
                             {
                                 system: "http://e-imo.com/products/problem-it",
-                                code: "30124179",
-                                display: "Acne Agminata",
+                                code: "310596",
+                                display: "Anomaly, spine",
                                 userSelected: false,
                             },
                             {
                                 system: "http://snomed.info/sct",
-                                code: "238752009",
-                                display: "Acne agminata (disorder)",
+                                code: "298380006",
+                                display: "Deformity of spine (finding)",
                                 userSelected: false,
                             },
                         ],
-                        text: "Acne agminata",
+                        text: "Anomaly, spine",
                     },
                     category: {
                         coding: [
@@ -23341,129 +25185,7 @@ const response = {
                         text: "Diagnosis",
                     },
                     verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-07T19:57:21.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572741315",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572741315",
-                    meta: {
-                        versionId: "2572741315",
-                        lastUpdated: "2020-11-18T17:59:10.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Acne agminata, Acne Agminata</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 18, 2020  5:59 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-18",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "30124179",
-                                display: "Acne Agminata",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "238752009",
-                                display: "Acne agminata (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "A18.4",
-                                display: "Tuberculosis of skin and subcutaneous tissue",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Acne agminata",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-18T17:59:10.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746503",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572746503",
-                    meta: {
-                        versionId: "2572746503",
-                        lastUpdated: "2020-11-27T12:23:04.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Moderate persistent asthma with status asthmaticus, Moderate persistent asthma with status asthmaticus</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020 12:23 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-11-27",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "746098",
-                                display: "Moderate persistent asthma with status asthmaticus",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "707980005",
-                                display: "Acute severe exacerbation of moderate persistent asthma (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "J45.42",
-                                display: "Moderate persistent asthma with status asthmaticus",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Moderate persistent asthma with status asthmaticus",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-27T12:23:04.000Z",
+                    onsetDateTime: "2020-12-09T15:19:22.000Z",
                 },
             },
             {
@@ -25728,6 +27450,161 @@ const response = {
                 },
             },
             {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73122557",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73122557",
+                    meta: {
+                        versionId: "73122567",
+                        lastUpdated: "2020-12-15T20:14:16.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Test diet monitoring encounter, Patient encounter status (finding)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "305058001",
+                                display: "Patient encounter status (finding)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "32927547",
+                                display: "Test diet monitoring encounter",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Test diet monitoring encounter",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    verificationStatus: "entered-in-error",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572762665",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572762665",
+                    meta: {
+                        versionId: "2572762667",
+                        lastUpdated: "2020-12-15T20:14:11.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Test diet monitoring encounter, Patient encounter status (finding)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 15, 2020  8:14 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "305058001",
+                                display: "Patient encounter status (finding)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "32927547",
+                                display: "Test diet monitoring encounter",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Test diet monitoring encounter",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-15T20:14:02.000Z",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73122575",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73122575",
+                    meta: {
+                        versionId: "73122655",
+                        lastUpdated: "2020-12-15T20:25:33.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Coma, Coma</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  7, 2011</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-12-15",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "32518",
+                                display: "Coma",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "371632003",
+                                display: "Coma (disorder)",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Coma",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2011-12-07",
+                    abatementBoolean: false,
+                },
+            },
+            {
                 fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73110655",
                 resource: {
                     resourceType: "Condition",
@@ -25777,398 +27654,6 @@ const response = {
                     },
                     verificationStatus: "entered-in-error",
                     abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758797",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572758797",
-                    meta: {
-                        versionId: "2572758805",
-                        lastUpdated: "2020-12-10T00:52:23.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1688844",
-                                display: "Unspecified hearing loss, unspecified ear",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "15188001",
-                                display: "Hearing loss (finding)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Unspecified hearing loss, unspecified ear",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T00:51:45.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759111",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572759111",
-                    meta: {
-                        versionId: "2572759111",
-                        lastUpdated: "2020-12-10T15:57:47.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec 10, 2020  3:57 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1688844",
-                                display: "Unspecified hearing loss, unspecified ear",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "15188001",
-                                display: "Hearing loss (finding)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "H91.90",
-                                display: "Unspecified hearing loss, unspecified ear",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Unspecified hearing loss, unspecified ear",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-12-10T15:57:47.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751403",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572751403",
-                    meta: {
-                        versionId: "2572758769",
-                        lastUpdated: "2020-12-10T00:50:32.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  3:17 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1688844",
-                                display: "Unspecified hearing loss, unspecified ear",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "15188001",
-                                display: "Hearing loss (finding)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Unspecified hearing loss, unspecified ear",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-09T15:17:58.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758775",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572758775",
-                    meta: {
-                        versionId: "2572758787",
-                        lastUpdated: "2020-12-10T00:51:23.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020 12:51 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1688844",
-                                display: "Unspecified hearing loss, unspecified ear",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "15188001",
-                                display: "Hearing loss (finding)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Unspecified hearing loss, unspecified ear",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T00:51:03.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759039",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572759039",
-                    meta: {
-                        versionId: "2572759055",
-                        lastUpdated: "2020-12-10T13:59:11.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  1:58 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1688844",
-                                display: "Unspecified hearing loss, unspecified ear",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "15188001",
-                                display: "Hearing loss (finding)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Unspecified hearing loss, unspecified ear",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T13:58:44.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758705",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572758705",
-                    meta: {
-                        versionId: "2572758705",
-                        lastUpdated: "2020-12-09T21:34:31.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec  9, 2020  9:34 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1688844",
-                                display: "Unspecified hearing loss, unspecified ear",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "15188001",
-                                display: "Hearing loss (finding)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "H91.90",
-                                display: "Unspecified hearing loss, unspecified ear",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Unspecified hearing loss, unspecified ear",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-12-09T21:34:31.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759077",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572759077",
-                    meta: {
-                        versionId: "2572759087",
-                        lastUpdated: "2020-12-10T15:38:21.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Unspecified hearing loss, unspecified ear, Unspecified hearing loss, unspecified ear</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:38 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "1688844",
-                                display: "Unspecified hearing loss, unspecified ear",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "15188001",
-                                display: "Hearing loss (finding)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Unspecified hearing loss, unspecified ear",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T15:38:02.000Z",
                 },
             },
             {
@@ -26230,100 +27715,6 @@ const response = {
                     clinicalStatus: "active",
                     verificationStatus: "confirmed",
                     onsetDateTime: "2020-11-27T12:44:59.000Z",
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73105067",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73105067",
-                    meta: {
-                        versionId: "73105067",
-                        lastUpdated: "2020-11-02T11:22:16.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Heart failure, unspecified, Heart failure, unspecified</p><p><b>Clinical Status</b>: Resolved</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: Nov  2, 2020</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "I50.9",
-                                display: "Heart failure, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Heart failure, unspecified",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "resolved",
-                    verificationStatus: "confirmed",
-                    abatementDateTime: "2020-11-02",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572627633",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572627633",
-                    meta: {
-                        versionId: "2572627633",
-                        lastUpdated: "2020-11-02T11:22:18.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Heart failure, unspecified, Heart failure, unspecified</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov  2, 2020 11:22 A.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954469",
-                    },
-                    dateRecorded: "2020-11-02",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "I50.9",
-                                display: "Heart failure, unspecified",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Heart failure, unspecified",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-11-02T11:22:18.000Z",
                 },
             },
             {
@@ -30835,391 +32226,6 @@ const response = {
                 },
             },
             {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73120325",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73120325",
-                    meta: {
-                        versionId: "73120325",
-                        lastUpdated: "2020-12-09T21:34:08.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "18598",
-                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "70694009",
-                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73119781",
-                resource: {
-                    resourceType: "Condition",
-                    id: "p73119781",
-                    meta: {
-                        versionId: "73120333",
-                        lastUpdated: "2020-12-09T21:34:17.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "18598",
-                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "70694009",
-                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://argonaut.hl7.org",
-                                code: "problem",
-                                display: "Problem",
-                            },
-                        ],
-                        text: "Problem",
-                    },
-                    verificationStatus: "entered-in-error",
-                    abatementBoolean: false,
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572751397",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572751397",
-                    meta: {
-                        versionId: "2572758799",
-                        lastUpdated: "2020-12-10T00:51:58.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  3:17 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "18598",
-                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "70694009",
-                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-09T15:17:58.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758701",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572758701",
-                    meta: {
-                        versionId: "2572758701",
-                        lastUpdated: "2020-12-09T21:34:30.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec  9, 2020  9:34 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97954777",
-                    },
-                    dateRecorded: "2020-12-09",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "18598",
-                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "70694009",
-                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "E11.39",
-                                display: "Type 2 diabetes mellitus with other diabetic ophthalmic complication",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-12-09T21:34:30.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759043",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572759043",
-                    meta: {
-                        versionId: "2572759049",
-                        lastUpdated: "2020-12-10T13:58:56.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  1:58 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "18598",
-                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "70694009",
-                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T13:58:44.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759107",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572759107",
-                    meta: {
-                        versionId: "2572759107",
-                        lastUpdated: "2020-12-10T15:57:47.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Dec 10, 2020  3:57 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "18598",
-                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "70694009",
-                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://hl7.org/fhir/sid/icd-10-cm",
-                                code: "E11.39",
-                                display: "Type 2 diabetes mellitus with other diabetic ophthalmic complication",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    clinicalStatus: "active",
-                    verificationStatus: "confirmed",
-                    onsetDateTime: "2020-12-10T15:57:46.000Z",
-                },
-            },
-            {
-                fullUrl:
-                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572759075",
-                resource: {
-                    resourceType: "Condition",
-                    id: "d2572759075",
-                    meta: {
-                        versionId: "2572759083",
-                        lastUpdated: "2020-12-10T15:38:17.000Z",
-                    },
-                    text: {
-                        status: "generated",
-                        div:
-                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Diabetes mellitus and insipidus with optic atrophy and deafness, Diabetes mellitus and insipidus with optic atrophy and deafness</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec 10, 2020  3:38 P.M. UTC</p></div>",
-                    },
-                    patient: {
-                        reference: "Patient/12724071",
-                        display: "SMART, VALERIE",
-                    },
-                    encounter: {
-                        reference: "Encounter/97953486",
-                    },
-                    dateRecorded: "2020-12-10",
-                    code: {
-                        coding: [
-                            {
-                                system: "http://e-imo.com/products/problem-it",
-                                code: "18598",
-                                display: "Diabetes mellitus and insipidus with optic atrophy and deafness",
-                                userSelected: false,
-                            },
-                            {
-                                system: "http://snomed.info/sct",
-                                code: "70694009",
-                                display: "Diabetes mellitus AND insipidus with optic atrophy AND deafness (disorder)",
-                                userSelected: false,
-                            },
-                        ],
-                        text: "Diabetes mellitus and insipidus with optic atrophy and deafness",
-                    },
-                    category: {
-                        coding: [
-                            {
-                                system: "http://hl7.org/fhir/condition-category",
-                                code: "diagnosis",
-                                display: "Diagnosis",
-                            },
-                        ],
-                        text: "Diagnosis",
-                    },
-                    verificationStatus: "entered-in-error",
-                    onsetDateTime: "2020-12-10T15:38:02.000Z",
-                },
-            },
-            {
                 fullUrl:
                     "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572631489",
                 resource: {
@@ -31666,6 +32672,279 @@ const response = {
                     verificationStatus: "entered-in-error",
                     onsetDateTime: "2020-11-04T09:07:30.000Z",
                     notes: "From Isabel DDx Tool.",
+                },
+            },
+            {
+                fullUrl: "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/p73114517",
+                resource: {
+                    resourceType: "Condition",
+                    id: "p73114517",
+                    meta: {
+                        versionId: "73120317",
+                        lastUpdated: "2020-12-09T21:32:43.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Problem</b>: Type 1 diabetes mellitus with hypoglycemic coma, Diabetes mellitus type 1 (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Resolved</b>: False</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    dateRecorded: "2020-11-25",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "46635009",
+                                display: "Diabetes mellitus type 1 (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "500140",
+                                display: "Type 1 diabetes mellitus with hypoglycemic coma",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 1 diabetes mellitus with hypoglycemic coma",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://argonaut.hl7.org",
+                                code: "problem",
+                                display: "Problem",
+                            },
+                        ],
+                        text: "Problem",
+                    },
+                    verificationStatus: "entered-in-error",
+                    abatementBoolean: false,
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572746487",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572746487",
+                    meta: {
+                        versionId: "2572746487",
+                        lastUpdated: "2020-11-27T11:22:56.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 1 diabetes mellitus with hypoglycemic coma, Diabetes mellitus type 1 (disorder)</p><p><b>Clinical Status</b>: Active</p><p><b>Verification Status</b>: Confirmed</p><p><b>Onset</b>: Nov 27, 2020 11:22 A.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-27",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "46635009",
+                                display: "Diabetes mellitus type 1 (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "500140",
+                                display: "Type 1 diabetes mellitus with hypoglycemic coma",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://hl7.org/fhir/sid/icd-10-cm",
+                                code: "E10.641",
+                                display: "Type 1 diabetes mellitus with hypoglycemia with coma",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 1 diabetes mellitus with hypoglycemic coma",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    clinicalStatus: "active",
+                    verificationStatus: "confirmed",
+                    onsetDateTime: "2020-11-27T11:22:56.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572743839",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572743839",
+                    meta: {
+                        versionId: "2572743841",
+                        lastUpdated: "2020-11-25T17:21:26.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 1 diabetes mellitus with hypoglycemic coma, Diabetes mellitus type 1 (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 25, 2020  5:20 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-25",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "46635009",
+                                display: "Diabetes mellitus type 1 (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "500140",
+                                display: "Type 1 diabetes mellitus with hypoglycemic coma",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 1 diabetes mellitus with hypoglycemic coma",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-11-25T17:20:48.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572743843",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572743843",
+                    meta: {
+                        versionId: "2572743845",
+                        lastUpdated: "2020-11-25T17:23:19.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 1 diabetes mellitus with hypoglycemic coma, Diabetes mellitus type 1 (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Nov 25, 2020  5:22 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97953486",
+                    },
+                    dateRecorded: "2020-11-25",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "46635009",
+                                display: "Diabetes mellitus type 1 (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "500140",
+                                display: "Type 1 diabetes mellitus with hypoglycemic coma",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 1 diabetes mellitus with hypoglycemic coma",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-11-25T17:22:54.000Z",
+                },
+            },
+            {
+                fullUrl:
+                    "https://fhir-open.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d/Condition/d2572758687",
+                resource: {
+                    resourceType: "Condition",
+                    id: "d2572758687",
+                    meta: {
+                        versionId: "2572758689",
+                        lastUpdated: "2020-12-09T21:32:25.000Z",
+                    },
+                    text: {
+                        status: "generated",
+                        div:
+                            "<div><p><b>Condition</b></p><p><b>Patient</b>: SMART, VALERIE</p><p><b>Diagnosis</b>: Type 1 diabetes mellitus with hypoglycemic coma, Diabetes mellitus type 1 (disorder)</p><p><b>Verification Status</b>: Entered In Error</p><p><b>Onset</b>: Dec  9, 2020  9:32 P.M. UTC</p></div>",
+                    },
+                    patient: {
+                        reference: "Patient/12724071",
+                        display: "SMART, VALERIE",
+                    },
+                    encounter: {
+                        reference: "Encounter/97954777",
+                    },
+                    dateRecorded: "2020-12-09",
+                    code: {
+                        coding: [
+                            {
+                                system: "http://snomed.info/sct",
+                                code: "46635009",
+                                display: "Diabetes mellitus type 1 (disorder)",
+                                userSelected: false,
+                            },
+                            {
+                                system: "http://e-imo.com/products/problem-it",
+                                code: "500140",
+                                display: "Type 1 diabetes mellitus with hypoglycemic coma",
+                                userSelected: false,
+                            },
+                        ],
+                        text: "Type 1 diabetes mellitus with hypoglycemic coma",
+                    },
+                    category: {
+                        coding: [
+                            {
+                                system: "http://hl7.org/fhir/condition-category",
+                                code: "diagnosis",
+                                display: "Diagnosis",
+                            },
+                        ],
+                        text: "Diagnosis",
+                    },
+                    verificationStatus: "entered-in-error",
+                    onsetDateTime: "2020-12-09T21:32:20.000Z",
                 },
             },
             {
