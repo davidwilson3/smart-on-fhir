@@ -6,14 +6,21 @@ const PatientCard = ({ patient, onClick }) => {
 
     return (
         <Card className={"card"} border='primary'>
-            <Card.Header className={"card-title"}>{name}</Card.Header>
+            <Card.Header className={"card-title"} aria-label={"patient name"}>
+                {name}
+            </Card.Header>
 
-            <Card.Body className='card-body'>
+            <Card.Body className='card-body' aria-label={"patient id, data source"}>
                 <div>{`ID: ${id}`}</div>
                 <div className={"card-source"}>{`Source: ${source}`}</div>
             </Card.Body>
             <Card.Footer>
-                <Button variant='primary' onClick={onClick} style={{ width: "80%" }}>
+                <Button
+                    variant='primary'
+                    onClick={onClick}
+                    style={{ width: "80%" }}
+                    aria-label={"view patient details, button"}
+                >
                     View
                 </Button>
             </Card.Footer>

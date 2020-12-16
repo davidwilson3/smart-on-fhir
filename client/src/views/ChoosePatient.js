@@ -28,8 +28,12 @@ const ChoosePatient = () => {
     };
 
     const display = {
-        loading: <div>Loading...</div>,
-        error: <div className='error'>An error occurred getting patient information, please refresh and try again</div>,
+        loading: <div aria-label={"message, loading"}>Loading...</div>,
+        error: (
+            <div className='error' aria-label={"error message, error loading"}>
+                An error occurred getting patient information, please refresh and try again
+            </div>
+        ),
         grid: <PatientSelector patients={patients} onSelectPatient={handleSelectPatient} />,
         details: <PatientDetails patient={selectedPatient} onBack={handleResetHome} />,
     };

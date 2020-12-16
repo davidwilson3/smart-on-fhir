@@ -40,7 +40,15 @@ const ConditionsTable = ({ data }) => {
         },
     ];
 
-    return <BootstrapTable keyField='key' data={finalData} columns={columns} striped />;
+    return (
+        <BootstrapTable
+            keyField='key'
+            data={finalData}
+            columns={columns}
+            striped
+            aria-label={"table, patient conditions"}
+        />
+    );
 };
 
 export default ConditionsTable;

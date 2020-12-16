@@ -26,22 +26,31 @@ const PatientDetails = ({ patient, onBack }) => {
 
     return (
         <>
-            <Button variant='secondary' size='lg' active onClick={onBack} className={"back-button"}>
+            <Button
+                variant='secondary'
+                size='lg'
+                active
+                onClick={onBack}
+                className={"back-button"}
+                aria-label={"go back, button"}
+            >
                 Back
             </Button>
             <div className={"flex-container"}>
                 <Card>
-                    <Card.Header>
+                    <Card.Header aria-label={"header, patient details"}>
                         <b>Patient Details</b>
                     </Card.Header>
-                    <Card.Body class={"card-body"}>
+                    <Card.Body class={"card-body"} aria-label={"card, demographics"}>
                         {lineLabel("Name", data["name"])}
                         {lineLabel("DOB", data["birthDate"])}
                         {lineLabel("Gender", data["gender"])}
                     </Card.Body>
                 </Card>
                 <div style={{ width: "100%" }}>
-                    <div style={{ fontWeight: "bold", marginBottom: "14px" }}>Patient Conditions</div>
+                    <div style={{ fontWeight: "bold", marginBottom: "14px" }} aria-label={"table header"}>
+                        Patient Conditions
+                    </div>
                 </div>
                 <div style={{ maxWidth: "70%" }}>
                     <ConditionsTable data={data["conditions"]} />
